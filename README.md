@@ -1,12 +1,14 @@
-# NFS Carbon Zeebo → Nintendo 3DS
+# NFS Carbon Zeebo/Psp → Nintendo 3DS
 
 Native reimplementation/reconstruction project for the Hybrid Zeebo/Psp version of
 **Need for Speed Carbon**, targeting Nintendo 3DS homebrew.
 
 ## Start here
 
+## Decrypt Progress
 
 The project is split into four layers:
+
 
 ```text
 assets/source/       original/recovered source material used for RE
@@ -18,6 +20,8 @@ romfs/               current runtime subset packed into the .3dsx
 Do not treat `assets/generated/` or `romfs/` as preservation sources.
 The canonical implementation-facing asset handoff is `assets/normalized/`.
 Raw unresolved data is under `assets/source/`.
+
+**These assets aren't in the repository; you'll have to extract them using the tools with the PSP and Zeebo ROMs of NFS Carbon.**
 
 ## Current state
 
@@ -51,7 +55,7 @@ The runtime is intentionally behind the asset reverse engineering.
 
 ## Build
 
-*This version of the repository doesn't have the normalized assets, Psp and Zeebo Rom temporary needed*
+*This repository doesn't have the assets, so you will need to convert the psp and Zeebo roms*
 
 With devkitPro/devkitARM and the 3DS packages installed:
 
