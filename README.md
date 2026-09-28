@@ -9,6 +9,7 @@ Native reimplementation/reconstruction project for the Hybrid Zeebo/Psp version 
 
 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) - Code Architecture
 
+[`tools/README.md`](tools/README.md) - Manual Decoder Tools
 
 ## Decrypt Progress
 
@@ -63,7 +64,7 @@ The runtime is intentionally behind the asset reverse engineering.
 
 ## Build
 
-*This repository doesn't have the assets, so you will need to convert the psp and Zeebo roms using the tools provided on  [`tools/`](tools_folder) *
+**This repository doesn't have the assets, so you will need to convert the psp and Zeebo roms using the tools provided on [`tools/README.md`](tools/README.md)**
 
 With devkitPro/devkitARM and the 3DS packages installed:
 
