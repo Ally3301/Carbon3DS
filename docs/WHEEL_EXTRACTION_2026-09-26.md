@@ -1,4 +1,11 @@
-# Wheel extraction audit — 2026-09-26
+
+# Outdated (Replaced By PsP Extraction)
+
+**Visual mesh extracted successfully from psp version of carbon**
+
+
+
+# Wheel extraction audit — 2026-09-26 (OUTDATED)
 
 This audit uses the original Brew module (`nfs.mod`) and the supplied untouched
 `nfsresources` dump. It replaces an earlier unsupported `rideInfo + 0x124`
@@ -59,7 +66,8 @@ one of the following, in order of fidelity:
 3. retain the current geometry-derived placement as an explicitly authored
    fallback.
 
-## Result
+## Result 
+
 
 No recovered source in this dump contains a visual wheel mesh. The project
 must not label the current cylinder as recovered. The next extraction task is
