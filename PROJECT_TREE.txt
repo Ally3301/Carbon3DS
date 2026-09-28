@@ -1,7 +1,5 @@
-NFS-Carbon-3DS-Port-Codex-Handoff/
-├── CODEX_START_HERE.md
+Carbon3DS/
 ├── README.md
-├── HANDOFF_REPORT.json
 ├── Makefile
 ├── CMakeLists.txt
 │
@@ -12,7 +10,7 @@ NFS-Carbon-3DS-Port-Codex-Handoff/
 ├── tools/                  offline RE/normalization/build tools
 ├── romfs/                  current runtime staging subset
 │
-├── assets/
+├── assets/                 where assets are supposed to be (this repository don't give these assets)
 │   ├── source/
 │   │   ├── vehicles_viv/
 │   │   ├── vehicle_global/
@@ -31,14 +29,14 @@ NFS-Carbon-3DS-Port-Codex-Handoff/
 │
 ├── reference/
 │   ├── decompilation/
-│   │   └── jogo.c
+│   │   └── zeebo.c     original code of nfs carbon (Zeebo ver.) (Unfortunately, I couldn't find a way to get it running functionally on the 3DS—it's just for comparing the recreation.)
 │   └── indexes/
 │       ├── source_index.json
 │       ├── cdl_index.json
 │       └── jogo_targeted_index.json
 │
 └── docs/
-    ├── PROJECT_STATUS.md
+    ├── PROJECT_STATUS.md 
     ├── ARCHITECTURE.md
     ├── ASSET_LAYOUT.md
     ├── REVERSE_ENGINEERING_KNOWLEDGE.md
