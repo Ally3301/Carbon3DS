@@ -32,7 +32,7 @@ must apply selected paint parameters.
 
 Zeebo Wheel texture archive is understood but visual mesh/hub path is not.
 
-**However, the wheel geometry from the PSP version is available, so I reused it because it is highly compatible with Zeebo textures.**
+**Update: However, the wheel geometry from the PSP version is available**
 
 ## World
 
@@ -41,19 +41,24 @@ Zeebo Wheel texture archive is understood but visual mesh/hub path is not.
 Some world sections contain less-common list types. They are preserved but not
 fully semantically decoded. 
 
-**80% of the world sections was sucessfully decoded, but some textures and categories are unknown**
+**Update: 80% of the world sections was sucessfully decoded, but some textures and categories are unknown**
 
 ## Gameplay
 
 
 
-### Physics is temporary
+### Physics is a placeholder
 
 Current arcade vehicle behavior exists only to exercise the runtime.
+
+**probably will be replaced to the original physics from ZeeboSource.c**
+
 
 ### APT/CONST not reconstructed
 
 UI PNGs are available, but original frontend layout/logic is not implemented.
+
+**probably will be replaced to the original Frontend from ZeeboSource.c**
 
 
 ### Procedural wheel approximation
