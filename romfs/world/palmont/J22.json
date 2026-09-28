@@ -1,0 +1,71 @@
+{
+  "format": "N3S1",
+  "section": "opwd_3000/J22",
+  "source": "tracks/opwd_3000.viv:J22.cdl+J22.msh",
+  "normalized_sha256": "217b3beaf95c71d16dcbeef3decb28fcf2e1b6987470e3025a71dbd086497949",
+  "vertices": 249,
+  "triangles": 129,
+  "batches": 5,
+  "bounds": [
+    -36.87154,
+    -33.48418,
+    -149.2896,
+    36.87154,
+    33.48418,
+    149.2896
+  ],
+  "scene_bytes": 11034,
+  "texture_bytes": 81920,
+  "materials": [
+    {
+      "key": "l3rl_3401/J0_6",
+      "source": "textures/J0_6.png",
+      "texture": "scene_tex/2cc98c15838e51cdcfcdbf4a461f536d401291a9d3b18123e64ecc0fd4bd6759.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "b60db54e9b75111903a109155e9908c961597fbca89323e4f5042802703cb2ec"
+    },
+    {
+      "key": "l3rl_3401/X0_89",
+      "source": "textures/X0_89.png",
+      "texture": "scene_tex/96b9ba4daf33539d7995459fb50e76393fd0006b63c0be35857422bf4954dfed.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "d9964e859d4306db88f6c12e26e9ed3d8aec172f0d6ba6f3dcee07f0d6f76cc7"
+    },
+    {
+      "key": "l3rl_3401/X0_28",
+      "source": "textures/X0_28.png",
+      "texture": "scene_tex/24c4c8a8c9fe908851dc1939dd819b29264c51d2f35ce58e82ea0479a1ba417a.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "104e9e2f7929ceba7fda058409616b85540c10ec0fa049db2b9ed2444e0a1a8d"
+    },
+    {
+      "key": "l3rl_3401/Z0_7",
+      "source": "textures/Z0_7.png",
+      "texture": "scene_tex/16fdd97649b5a7889634a35e112e828fb005c3321ca1a30a206edf1523dde341.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "fc42190e800829bed599c181c60754790cbb4b1b6633d318fb9ff175068dd7f0"
+    },
+    {
+      "key": "l3rl_3401/X0_37",
+      "source": "textures/X0_37.png",
+      "texture": "scene_tex/d4143216d24bda1c5b929d346393810c84ce4713ba898aa4a12e363e8e34f71d.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "1c307a6cfff037d34fc4729ed3c90f6f931a070fd441335b324fb2f2c9fc9f69"
+    }
+  ]
+}

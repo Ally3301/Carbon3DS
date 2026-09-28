@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-25",
+  "component_pairs_compared": 830,
+  "comparison_failures": 0,
+  "max_options_per_slot": {
+    "base": 4,
+    "body": 4,
+    "crewtag_sides": 4,
+    "hood": 3,
+    "spoiler": 17,
+    "crewtag_hood": 1
+  },
+  "runtime_option_limit": 20,
+  "option_limit_overflow": false,
+  "vehicle_classes": {
+    "customizable_racecar": 29,
+    "fixed_traffic_direct_texture": 6,
+    "fixed_special_direct_materials": 4,
+    "special_dynamic_material_path": 4
+  },
+  "scene_renderer_unchanged": true,
+  "draw_scene_sha256_prefix": "86f8635083c8146c"
+}

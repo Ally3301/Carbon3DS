@@ -1,0 +1,86 @@
+; PICA200 vertex shader — lighting modeled after the Zeebo compiled-model path
+; (diffuse + specular + ambient), consumed by citro3d.
+
+.fvec projection[4], modelView[4]
+.fvec lightVec, lightHalfVec, lightClr, material[4]
+.fvec texUvOrigin, texUvU, texUvV
+.alias mat_amb material[0]
+.alias mat_dif material[1]
+.alias mat_spe material[2]
+.alias mat_emi material[3]
+
+.constf myconst(0.0, 1.0, -1.0, -0.5)
+.alias  zeros myconst.xxxx
+.alias  ones  myconst.yyyy
+
+.out outpos position
+.out outtc0 texcoord0
+.out outclr color
+
+.alias inpos v0
+.alias intex v1
+.alias innrm v2
+
+.proc main
+	mov r0.xyz, inpos
+	mov r0.w,   ones
+
+	dp4 r1.x, modelView[0], r0
+	dp4 r1.y, modelView[1], r0
+	dp4 r1.z, modelView[2], r0
+	dp4 r1.w, modelView[3], r0
+
+	dp4 outpos.x, projection[0], r1
+	dp4 outpos.y, projection[1], r1
+	dp4 outpos.z, projection[2], r1
+	dp4 outpos.w, projection[3], r1
+
+	; View direction in view space, retained for a cheap Fresnel rim.
+	mov r4, r1
+	dp3 r3, r4, r4
+	rsq r3, r3
+	mul r4, r3, r4
+
+	; Map logical source UVs into the tex3ds subtexture.  This preserves
+	; padded/atlased/rotated T3X images instead of assuming raw 0..1.
+	mul r3, texUvU, intex.xxxx
+	mad r3, intex.yyyy, texUvV, r3
+	add outtc0, texUvOrigin, r3
+
+	mov r0.xyz, innrm
+	mov r0.w,   zeros
+	dp4 r1.x,   modelView[0], r0
+	dp4 r1.y,   modelView[1], r0
+	dp4 r1.z,   modelView[2], r0
+	mov r1.w,   zeros
+	dp3 r2,     r1, r1
+	rsq r2,     r2
+	mul r1,     r2, r1
+
+	dp3 r0.x, lightVec,      r1
+	add r0.x, zeros,         -r0
+	dp3 r0.y, -lightHalfVec, r1
+	max r0,   zeros,         r0
+	mul r0.y, r0,            r0
+
+	; Fresnel: edge-facing normals receive a view-dependent reflection lift.
+	dp3 r3.x, -r1, r4
+	max r3.x, zeros, r3
+	add r3.x, ones, -r3
+	mul r3.x, r3, r3
+	mul r3, mat_spe, r3.xxxx
+
+	mov r1, mat_emi
+	; Add the rim independently of the directional-light term.  The old
+	; version buried Fresnel in the specular lobe, making it invisible on
+	; the low-poly car at most camera angles.
+	add r1, r1, r3
+	mul r2, lightClr, r0.yyyy
+	mad r1, r2, mat_spe, r1
+	mul r2, lightClr, r0.xxxx
+	mad r1, r2, mat_dif, r1
+	mov r2, lightClr
+	mad r1, r2, mat_amb, r1
+	min outclr, ones, r1
+	end
+.end

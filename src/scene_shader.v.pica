@@ -1,0 +1,26 @@
+; World colors already include recovered CDL ambient modulation.
+.fvec projection[4], modelView[4]
+.fvec texFlip
+.constf constants(0.0, 1.0, 0.0, 0.0)
+.out outpos position
+.out outtc texcoord0
+.out outcolor color
+.proc main
+    mov r0.xyz, v0
+    mov r0.w, constants.y
+    dp4 r1.x, modelView[0], r0
+    dp4 r1.y, modelView[1], r0
+    dp4 r1.z, modelView[2], r0
+    dp4 r1.w, modelView[3], r0
+    dp4 outpos.x, projection[0], r1
+    dp4 outpos.y, projection[1], r1
+    dp4 outpos.z, projection[2], r1
+    dp4 outpos.w, projection[3], r1
+    mov outtc.x, v1.x
+    ; UI/garage retain their authored coordinates.  Only Palmont requests V flip.
+    add r2.y, constants.y, -v1.y
+    add r2.y, r2.y, -v1.y
+    mad outtc.y, r2.y, texFlip.x, v1.y
+    mov outcolor, v2
+    end
+.end

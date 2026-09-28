@@ -1,0 +1,53 @@
+NFS-Carbon-3DS-Port-Codex-Handoff/
+├── CODEX_START_HERE.md
+├── README.md
+├── HANDOFF_REPORT.json
+├── Makefile
+├── CMakeLists.txt
+│
+├── src/                    current 3DS runtime prototype
+├── include/
+├── gfx/
+├── tests/
+├── tools/                  offline RE/normalization/build tools
+├── romfs/                  current runtime staging subset
+│
+├── assets/
+│   ├── source/
+│   │   ├── vehicles_viv/
+│   │   ├── vehicle_global/
+│   │   └── romfs_raw/
+│   ├── normalized/         preferred implementation-facing handoff
+│   │   ├── vehicles/
+│   │   ├── shared/
+│   │   ├── world/
+│   │   ├── audio/
+│   │   ├── ui/
+│   │   └── manifests/
+│   └── generated/
+│       └── 3ds/
+│           ├── vehicles/
+│           └── vehicle_global/
+│
+├── reference/
+│   ├── decompilation/
+│   │   └── jogo.c
+│   └── indexes/
+│       ├── source_index.json
+│       ├── cdl_index.json
+│       └── jogo_targeted_index.json
+│
+└── docs/
+    ├── PROJECT_STATUS.md
+    ├── ARCHITECTURE.md
+    ├── ASSET_LAYOUT.md
+    ├── REVERSE_ENGINEERING_KNOWLEDGE.md
+    ├── GAME_SYSTEMS_NOTES.md
+    ├── FORMATS.md
+    ├── PROGRAMMING_GUIDANCE.md
+    ├── KNOWN_ISSUES.md
+    ├── ROADMAP.md
+    ├── BUILD_AND_TEST.md
+    ├── SPEC-1-NFS-CARBON-ZEEBO-3DS.md
+    ├── PROMPT_FOR_CODEX.md
+    └── legacy_notes/

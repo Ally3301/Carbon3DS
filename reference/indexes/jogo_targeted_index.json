@@ -1,0 +1,272 @@
+{
+  "PocketGarage": [
+    {
+      "line": 8554,
+      "text": "string s_PocketGarage_Orbit_Cam_000fcdc0;"
+    },
+    {
+      "line": 8560,
+      "text": "string s_PocketGarage_Loaded_Group_000fcea8;"
+    },
+    {
+      "line": 8620,
+      "text": "string s_PocketGarage_Cam_Controller_000fe3f0;"
+    },
+    {
+      "line": 146377,
+      "text": "uVar3 = FUN_001b0a28(0xe4,s_PocketGarage_Orbit_Cam_000fcdc0,0);"
+    },
+    {
+      "line": 146400,
+      "text": "((int *)*piVar1,s_PocketGarage_Loaded_Group_000fcea8,0x20,0);"
+    },
+    {
+      "line": 146978,
+      "text": "FUN_001b0a28(100,s_PocketGarage_Cam_Controller_000fe3f0,0);"
+    }
+  ],
+  "TrackStreamer": [
+    {
+      "line": 4700,
+      "text": "string s_SHAPEFILE_TrackStreamer_00085548;"
+    },
+    {
+      "line": 4807,
+      "text": "string s_SHAPEFILE_TrackStreamer_000881bc;"
+    },
+    {
+      "line": 99008,
+      "text": "uVar4 = FUN_00007728(s_SHAPEFILE_TrackStreamer_00085548,*(undefined4 *)(param_2 + 0x54),0x100);"
+    },
+    {
+      "line": 100361,
+      "text": "uVar3 = FUN_00007728(s_SHAPEFILE_TrackStreamer_000881bc,"
+    }
+  ],
+  "gonkulator": [],
+  "WorldObjects": [],
+  "visiblesections": [],
+  "Trigulator": [],
+  "CarLoader": [
+    {
+      "line": 8508,
+      "text": "string s_Pocket-CarLoader_000fb464;"
+    },
+    {
+      "line": 8509,
+      "text": "string s_test_failed:_(mCarLoader_!=_NULL_000fb478;"
+    },
+    {
+      "line": 13727,
+      "text": "string s_CarLoader::IsPlayerCar()_-_Param_00198824;"
+    },
+    {
+      "line": 13729,
+      "text": "string s_CarLoader::IsPlayerCar()_-_Param_001988b0;"
+    },
+    {
+      "line": 13732,
+      "text": "string s_CarLoader.cpp_0019894c;"
+    },
+    {
+      "line": 145870,
+      "text": "uVar2 = FUN_001b0a28(0x4c,s_Pocket_CarLoader_000fb464,0);"
+    },
+    {
+      "line": 145873,
+      "text": "FUN_00140ae4(iVar3 != 0,s_test_failed___mCarLoader____NULL_000fb478);"
+    },
+    {
+      "line": 245789,
+      "text": "FUN_00140ae4(param_2 != 0,s_CarLoader__IsPlayerCar_____Param_00198824);"
+    },
+    {
+      "line": 245801,
+      "text": "FUN_00140ae4(param_2 != 0,s_CarLoader__IsPlayerCar_____Param_001988b0);"
+    },
+    {
+      "line": 245829,
+      "text": "FUN_00012318(DAT_0019895c + 0x198940,s_CarLoader_cpp_0019894c,DAT_00198948);"
+    }
+  ],
+  "GetCarPaint": [
+    {
+      "line": 5080,
+      "text": "string s_Career.GetCarPaint_00096384;"
+    },
+    {
+      "line": 5163,
+      "text": "string s_Career.GetCarPaint_000970a0;"
+    },
+    {
+      "line": 103044,
+      "text": "FUN_00136ebc(s_Career_GetCarPaint_00096384,param_1 + 0x12,0xffffffff);"
+    },
+    {
+      "line": 103135,
+      "text": "FUN_0013828c(s_Career_GetCarPaint_000970a0);"
+    }
+  ],
+  "UpdateSelectedCarPaint": [
+    {
+      "line": 5120,
+      "text": "string s_Career.UpdateSelectedCarPaint_000969e0;"
+    },
+    {
+      "line": 5205,
+      "text": "string s_Career.UpdateSelectedCarPaint_000975dc;"
+    },
+    {
+      "line": 103084,
+      "text": "FUN_00136e70(s_Career_UpdateSelectedCarPaint_000969e0,param_1 + 0x3a,0xffffffff);"
+    },
+    {
+      "line": 103177,
+      "text": "FUN_0013824c(s_Career_UpdateSelectedCarPaint_000975dc);"
+    }
+  ],
+  "TIRE_STYLE": [
+    {
+      "line": 9347,
+      "text": "string s_TRAFFICCAR_TIRE_STYLE00_0011cf78;"
+    },
+    {
+      "line": 9350,
+      "text": "string s_%s_TIRE_STYLE00_0011cfa8;"
+    },
+    {
+      "line": 161881,
+      "text": "uVar3 = FUN_00010684(s_TRAFFICCAR_TIRE_STYLE00_0011cf78);"
+    },
+    {
+      "line": 161897,
+      "text": "FUN_00033c18(auStack_208,s__s_TIRE_STYLE00_0011cfa8,iVar2 + iVar4 * 0xda0);"
+    }
+  ],
+  "wheel": [
+    {
+      "line": 2539,
+      "text": "string s_onMouseWheel_00043fcc;"
+    },
+    {
+      "line": 3937,
+      "text": "string s_AI::Psycho_WheelSlip_Pid_0006e4ac;"
+    },
+    {
+      "line": 9345,
+      "text": "string s_Could_not_decompress_wheel_bigfi_0011cf30;"
+    },
+    {
+      "line": 9346,
+      "text": "string s_test_failed:_(wheelBigSize_>_0)_0011cf54;"
+    },
+    {
+      "line": 9382,
+      "text": "string s_wheel_modable%s_0011d84c;"
+    },
+    {
+      "line": 9383,
+      "text": "string s_wheel_common%s_0011d860;"
+    },
+    {
+      "line": 9384,
+      "text": "string s_Wheel_Modable_Texture_Library_wa_0011d870;"
+    },
+    {
+      "line": 9385,
+      "text": "string s_Wheel_Common_Texture_Library_was_0011d8a0;"
+    },
+    {
+      "line": 10461,
+      "text": "string s_(BlownTireBits_|_wheel_bits)_!=_B_0013c330;"
+    },
+    {
+      "line": 10483,
+      "text": "string s_test_failed:_((wheel_num_>=_0)_&_0013c770;"
+    },
+    {
+      "line": 12956,
+      "text": "string s_test_failed:_(nWheelsTouchingGro_0017edb8;"
+    },
+    {
+      "line": 14141,
+      "text": "string s_SemiWheelMover_001a31e4;"
+    }
+  ],
+  "CompiledModel.cpp": [
+    {
+      "line": 11060,
+      "text": "string s_source\\CompiledModel.cpp_00147be4;"
+    },
+    {
+      "line": 11065,
+      "text": "string s_source\\CompiledModel.cpp_00148418;"
+    },
+    {
+      "line": 11370,
+      "text": "string s_source\\CompiledModel.cpp_0014eb30;"
+    }
+  ],
+  "ZeeboGeometry": [
+    {
+      "line": 11063,
+      "text": "string s_ZeeboGeometry_001480e4;"
+    },
+    {
+      "line": 189115,
+      "text": "iVar24 = FUN_001b09a8(iVar7,s_ZeeboGeometry_001480e4,0);"
+    }
+  ],
+  "DriveCameraMover": [
+    {
+      "line": 9546,
+      "text": "string s_DriveCameraMover(DCC)_00123be0;"
+    },
+    {
+      "line": 12524,
+      "text": "string s_DriveCameraMover(Player)_00170e48;"
+    },
+    {
+      "line": 165340,
+      "text": "uVar5 = FUN_001b0a58(0x3c8,s_DriveCameraMover_DCC__00123be0,0);"
+    },
+    {
+      "line": 218176,
+      "text": "uVar4 = FUN_001b0a58(0x3c8,s_DriveCameraMover_Player__00170e48,0);"
+    }
+  ],
+  "Collision.cpp": [
+    {
+      "line": 752,
+      "text": "string s_Collision.cpp_00016f74;"
+    }
+  ],
+  "NFS_GoToScreen": [
+    {
+      "line": 1263,
+      "text": "string s_NFS_GoToScreen_00048d54;"
+    },
+    {
+      "line": 7869,
+      "text": "string s_NFS_GoToScreen_000e7710;"
+    },
+    {
+      "line": 43668,
+      "text": "uVar17 = FUN_00018b0c(s_NFS_GoToScreen_00048d54,0,s___root_00048d1c,1,s_MainMenu_00048d48);"
+    },
+    {
+      "line": 66681,
+      "text": "uVar14 = FUN_00018b0c(s_NFS_GoToScreen_00048d54,0,s___root_00048d1c,1,s_MainMenu_00048d48);"
+    },
+    {
+      "line": 137430,
+      "text": "FUN_00018b0c(s_NFS_GoToScreen_000e7710,0,s___root_000e7708,1);"
+    }
+  ],
+  "Track%d.caf": [
+    {
+      "line": 514,
+      "text": "string s_Track%d.caf_0000dc54;"
+    }
+  ]
+}

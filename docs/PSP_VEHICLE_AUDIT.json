@@ -1,0 +1,264 @@
+{
+  "psp_archive_bytes": 13743977,
+  "zeebo_archive_bytes": 3204081,
+  "cars": [
+    {
+      "car": "240SX",
+      "psp_bytes": 463944,
+      "zeebo_bytes": 99016,
+      "ratio": 4.69
+    },
+    {
+      "car": "300C",
+      "psp_bytes": 474892,
+      "zeebo_bytes": 113285,
+      "ratio": 4.19
+    },
+    {
+      "car": "350Z",
+      "psp_bytes": 444167,
+      "zeebo_bytes": 107271,
+      "ratio": 4.14
+    },
+    {
+      "car": "CARRERA4S",
+      "psp_bytes": 448936,
+      "zeebo_bytes": 102569,
+      "ratio": 4.38
+    },
+    {
+      "car": "CARRERAGT",
+      "psp_bytes": 370738,
+      "zeebo_bytes": 91954,
+      "ratio": 4.03
+    },
+    {
+      "car": "COBALTSS",
+      "psp_bytes": 544629,
+      "zeebo_bytes": 123362,
+      "ratio": 4.41
+    },
+    {
+      "car": "CORVETTE",
+      "psp_bytes": 443787,
+      "zeebo_bytes": 86668,
+      "ratio": 5.12
+    },
+    {
+      "car": "CUBEVAN",
+      "psp_bytes": 14243,
+      "zeebo_bytes": 7841,
+      "ratio": 1.82
+    },
+    {
+      "car": "DB9",
+      "psp_bytes": 411835,
+      "zeebo_bytes": 109883,
+      "ratio": 3.75
+    },
+    {
+      "car": "ECLIPSE",
+      "psp_bytes": 439316,
+      "zeebo_bytes": 94740,
+      "ratio": 4.64
+    },
+    {
+      "car": "ELISE",
+      "psp_bytes": 439702,
+      "zeebo_bytes": 114065,
+      "ratio": 3.85
+    },
+    {
+      "car": "FIREBIRD",
+      "psp_bytes": 426715,
+      "zeebo_bytes": 85211,
+      "ratio": 5.01
+    },
+    {
+      "car": "FORDGT",
+      "psp_bytes": 367635,
+      "zeebo_bytes": 91411,
+      "ratio": 4.02
+    },
+    {
+      "car": "GALLARDO",
+      "psp_bytes": 384046,
+      "zeebo_bytes": 96556,
+      "ratio": 3.98
+    },
+    {
+      "car": "GOLF",
+      "psp_bytes": 560830,
+      "zeebo_bytes": 106817,
+      "ratio": 5.25
+    },
+    {
+      "car": "GTO",
+      "psp_bytes": 425364,
+      "zeebo_bytes": 96788,
+      "ratio": 4.39
+    },
+    {
+      "car": "LANCER",
+      "psp_bytes": 554473,
+      "zeebo_bytes": 126441,
+      "ratio": 4.39
+    },
+    {
+      "car": "LARGESUV",
+      "psp_bytes": 16486,
+      "zeebo_bytes": 9066,
+      "ratio": 1.82
+    },
+    {
+      "car": "MAZDA3",
+      "psp_bytes": 427755,
+      "zeebo_bytes": 86381,
+      "ratio": 4.95
+    },
+    {
+      "car": "MR2",
+      "psp_bytes": 464656,
+      "zeebo_bytes": 108800,
+      "ratio": 4.27
+    },
+    {
+      "car": "MURCIELAGO",
+      "psp_bytes": 411101,
+      "zeebo_bytes": 112857,
+      "ratio": 3.64
+    },
+    {
+      "car": "MUSTANG67",
+      "psp_bytes": 411265,
+      "zeebo_bytes": 108799,
+      "ratio": 3.78
+    },
+    {
+      "car": "MUSTANGGT",
+      "psp_bytes": 461576,
+      "zeebo_bytes": 103177,
+      "ratio": 4.47
+    },
+    {
+      "car": "PICKUP",
+      "psp_bytes": 20187,
+      "zeebo_bytes": 11232,
+      "ratio": 1.8
+    },
+    {
+      "car": "PURSUITMUSCLE1",
+      "psp_bytes": 76821,
+      "zeebo_bytes": 28436,
+      "ratio": 2.7
+    },
+    {
+      "car": "PURSUITMUSCLE2",
+      "psp_bytes": 71701,
+      "zeebo_bytes": 23700,
+      "ratio": 3.03
+    },
+    {
+      "car": "PURSUITSEDAN1",
+      "psp_bytes": 62100,
+      "zeebo_bytes": 24339,
+      "ratio": 2.55
+    },
+    {
+      "car": "PURSUITSEDAN2",
+      "psp_bytes": 62228,
+      "zeebo_bytes": 23955,
+      "ratio": 2.6
+    },
+    {
+      "car": "PURSUITSUV1",
+      "psp_bytes": 70553,
+      "zeebo_bytes": 27293,
+      "ratio": 2.59
+    },
+    {
+      "car": "PURSUITSUV2",
+      "psp_bytes": 65688,
+      "zeebo_bytes": 22428,
+      "ratio": 2.93
+    },
+    {
+      "car": "PURSUITWAGON1",
+      "psp_bytes": 67127,
+      "zeebo_bytes": 23734,
+      "ratio": 2.83
+    },
+    {
+      "car": "PURSUITWAGON2",
+      "psp_bytes": 69429,
+      "zeebo_bytes": 23604,
+      "ratio": 2.94
+    },
+    {
+      "car": "RX7",
+      "psp_bytes": 439170,
+      "zeebo_bytes": 95219,
+      "ratio": 4.61
+    },
+    {
+      "car": "RX8",
+      "psp_bytes": 422378,
+      "zeebo_bytes": 91113,
+      "ratio": 4.64
+    },
+    {
+      "car": "SEDAN",
+      "psp_bytes": 16695,
+      "zeebo_bytes": 9911,
+      "ratio": 1.68
+    },
+    {
+      "car": "SKYLINE",
+      "psp_bytes": 463333,
+      "zeebo_bytes": 99947,
+      "ratio": 4.64
+    },
+    {
+      "car": "SL65AMG",
+      "psp_bytes": 428297,
+      "zeebo_bytes": 79630,
+      "ratio": 5.38
+    },
+    {
+      "car": "SMALLSUV",
+      "psp_bytes": 19881,
+      "zeebo_bytes": 11433,
+      "ratio": 1.74
+    },
+    {
+      "car": "SOLSTICE",
+      "psp_bytes": 469832,
+      "zeebo_bytes": 94152,
+      "ratio": 4.99
+    },
+    {
+      "car": "SUPRA",
+      "psp_bytes": 454347,
+      "zeebo_bytes": 97993,
+      "ratio": 4.64
+    },
+    {
+      "car": "TAXI",
+      "psp_bytes": 14845,
+      "zeebo_bytes": 8827,
+      "ratio": 1.68
+    },
+    {
+      "car": "TT",
+      "psp_bytes": 431902,
+      "zeebo_bytes": 100508,
+      "ratio": 4.3
+    },
+    {
+      "car": "WRXSTI",
+      "psp_bytes": 606953,
+      "zeebo_bytes": 121329,
+      "ratio": 5.0
+    }
+  ]
+}

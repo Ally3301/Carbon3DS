@@ -1,0 +1,203 @@
+[
+  {
+    "car": "240SX",
+    "entries": 65,
+    "bytes": 458076
+  },
+  {
+    "car": "300C",
+    "entries": 65,
+    "bytes": 469573
+  },
+  {
+    "car": "350Z",
+    "entries": 65,
+    "bytes": 438696
+  },
+  {
+    "car": "CARRERA4S",
+    "entries": 63,
+    "bytes": 443146
+  },
+  {
+    "car": "CARRERAGT",
+    "entries": 57,
+    "bytes": 365773
+  },
+  {
+    "car": "COBALTSS",
+    "entries": 73,
+    "bytes": 538580
+  },
+  {
+    "car": "CORVETTE",
+    "entries": 65,
+    "bytes": 438154
+  },
+  {
+    "car": "CUBEVAN",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "DB9",
+    "entries": 59,
+    "bytes": 406837
+  },
+  {
+    "car": "ECLIPSE",
+    "entries": 67,
+    "bytes": 434197
+  },
+  {
+    "car": "ELISE",
+    "entries": 59,
+    "bytes": 434578
+  },
+  {
+    "car": "FIREBIRD",
+    "entries": 59,
+    "bytes": 421870
+  },
+  {
+    "car": "FORDGT",
+    "entries": 61,
+    "bytes": 362544
+  },
+  {
+    "car": "GALLARDO",
+    "entries": 61,
+    "bytes": 378448
+  },
+  {
+    "car": "GOLF",
+    "entries": 75,
+    "bytes": 554075
+  },
+  {
+    "car": "GTO",
+    "entries": 65,
+    "bytes": 420092
+  },
+  {
+    "car": "LANCER",
+    "entries": 73,
+    "bytes": 548041
+  },
+  {
+    "car": "LARGESUV",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "MAZDA3",
+    "entries": 65,
+    "bytes": 422163
+  },
+  {
+    "car": "MR2",
+    "entries": 65,
+    "bytes": 458488
+  },
+  {
+    "car": "MURCIELAGO",
+    "entries": 59,
+    "bytes": 406038
+  },
+  {
+    "car": "MUSTANG67",
+    "entries": 59,
+    "bytes": 405696
+  },
+  {
+    "car": "MUSTANGGT",
+    "entries": 69,
+    "bytes": 455405
+  },
+  {
+    "car": "PICKUP",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITMUSCLE1",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITMUSCLE2",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITSEDAN1",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITSEDAN2",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITSUV1",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITSUV2",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITWAGON1",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "PURSUITWAGON2",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "RX7",
+    "entries": 65,
+    "bytes": 434234
+  },
+  {
+    "car": "RX8",
+    "entries": 67,
+    "bytes": 416735
+  },
+  {
+    "car": "SEDAN",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "SKYLINE",
+    "entries": 65,
+    "bytes": 457953
+  },
+  {
+    "car": "SL65AMG",
+    "entries": 59,
+    "bytes": 422987
+  },
+  {
+    "car": "SMALLSUV",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "SOLSTICE",
+    "entries": 63,
+    "bytes": 464319
+  },
+  {
+    "car": "SUPRA",
+    "entries": 65,
+    "bytes": 448432
+  },
+  {
+    "car": "TAXI",
+    "error": "invalid BIG payload 'vinyls.viv'"
+  },
+  {
+    "car": "TT",
+    "entries": 69,
+    "bytes": 426176
+  },
+  {
+    "car": "WRXSTI",
+    "entries": 75,
+    "bytes": 600534
+  }
+]

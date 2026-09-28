@@ -1,0 +1,153 @@
+<!doctype html><meta charset=utf-8><title>PSP CLUT diagnosis</title>
+<style>body{background:#14181e;color:#ddd;font-family:system-ui}img{max-width:520px;border:1px solid #39414d;margin:8px}section{display:inline-block;vertical-align:top}</style>
+<h1>PSP SHPM CLUT byte-order diagnosis</h1><p>Each sheet decodes the same raw palette with every RGB order while preserving byte 3 as alpha. CLUT4 sheets also test reversed index nibbles. Badges with the anomalous aux=32 mask profile test inverted alpha coverage transparent palette index 0, and binary index coverage. Inspect against a PSP capture before changing the decoder.</p>
+<h2>240SX</h2>
+<section><img src='240SX/0000_240SX_DETAILS.png'><br><small>240SX_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2312, 'byte_2': 0.1312, 'byte_3': 0.3312}</small></section>
+<section><img src='240SX/0001_240SX_TAILLIGHT.png'><br><small>240SX_TAILLIGHT — alpha scores {'byte_0': 0.0137, 'byte_1': 0.0656, 'byte_2': 0.3664, 'byte_3': 1.0}</small></section>
+<section><img src='240SX/0002_240SX_HEADLIGHT.png'><br><small>240SX_HEADLIGHT — alpha scores {'byte_0': 0.0117, 'byte_1': 0.0, 'byte_2': 0.0137, 'byte_3': 1.0}</small></section>
+<section><img src='240SX/0003_240SX_BADGING.png'><br><small>240SX_BADGING — alpha scores {'byte_0': 0.0, 'byte_1': 0.0, 'byte_2': 0.0082, 'byte_3': 0.4891}</small></section>
+<h2>300C</h2>
+<section><img src='300C/0000_300C_DETAILS.png'><br><small>300C_DETAILS — alpha scores {'byte_0': 0.1312, 'byte_1': 0.3125, 'byte_2': 0.1312, 'byte_3': 0.2938}</small></section>
+<section><img src='300C/0001_300C_TAILLIGHT.png'><br><small>300C_TAILLIGHT — alpha scores {'byte_0': 0.0105, 'byte_1': 0.0383, 'byte_2': 0.0738, 'byte_3': 1.0}</small></section>
+<section><img src='300C/0002_300C_HEADLIGHT.png'><br><small>300C_HEADLIGHT — alpha scores {'byte_0': 0.0191, 'byte_1': 0.0109, 'byte_2': 0.0137, 'byte_3': 1.0}</small></section>
+<section><img src='300C/0003_300C_BADGING.png'><br><small>300C_BADGING — alpha scores {'byte_0': 0.0117, 'byte_1': 0.0137, 'byte_2': 0.041, 'byte_3': 0.5039}</small></section>
+<h2>350Z</h2>
+<section><img src='350Z/0000_350Z_DETAILS.png'><br><small>350Z_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.25, 'byte_2': 0.1312, 'byte_3': 0.2938}</small></section>
+<section><img src='350Z/0001_350Z_TAILLIGHT.png'><br><small>350Z_TAILLIGHT — alpha scores {'byte_0': 0.0227, 'byte_1': 0.0711, 'byte_2': 0.2051, 'byte_3': 1.0}</small></section>
+<section><img src='350Z/0002_350Z_HEADLIGHT.png'><br><small>350Z_HEADLIGHT — alpha scores {'byte_0': 0.018, 'byte_1': 0.0109, 'byte_2': 0.0109, 'byte_3': 1.0}</small></section>
+<section><img src='350Z/0003_350Z_BADGING.png'><br><small>350Z_BADGING — alpha scores {'byte_0': 0.016, 'byte_1': 0.0137, 'byte_2': 0.0191, 'byte_3': 0.5852}</small></section>
+<h2>CARRERA4S</h2>
+<section><img src='CARRERA4S/0000_CARRERA4S_BRAKELIGHT.png'><br><small>CARRERA4S_BRAKELIGHT — alpha scores {'byte_0': 0.0121, 'byte_1': 0.1551, 'byte_2': 0.1566, 'byte_3': 1.0}</small></section>
+<section><img src='CARRERA4S/0001_CARRERA4S_DETAILS.png'><br><small>CARRERA4S_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3812, 'byte_2': 0.175, 'byte_3': 0.275}</small></section>
+<section><img src='CARRERA4S/0002_CARRERA4S_HEADLIGHT.png'><br><small>CARRERA4S_HEADLIGHT — alpha scores {'byte_0': 0.15, 'byte_1': 0.4562, 'byte_2': 0.15, 'byte_3': 0.5875}</small></section>
+<section><img src='CARRERA4S/0003_CARRERA4S_HEADLIGHT_Line.png'><br><small>CARRERA4S_HEADLIGHT_Line — alpha scores {'byte_0': 0.5633, 'byte_1': 0.5633, 'byte_2': 0.5633, 'byte_3': 0.5965}</small></section>
+<section><img src='CARRERA4S/0004_CARRERA4S_BADGING.png'><br><small>CARRERA4S_BADGING — alpha scores {'byte_0': 0.1312, 'byte_1': 0.2562, 'byte_2': 0.2188, 'byte_3': 0.2562}</small></section>
+<h2>CARRERAGT</h2>
+<section><img src='CARRERAGT/0000_CARRERAGT_DETAILS.png'><br><small>CARRERAGT_DETAILS — alpha scores {'byte_0': 0.2188, 'byte_1': 0.3125, 'byte_2': 0.2188, 'byte_3': 0.3}</small></section>
+<section><img src='CARRERAGT/0001_CARRERAGT_HEADLIGHT.png'><br><small>CARRERAGT_HEADLIGHT — alpha scores {'byte_0': 0.0871, 'byte_1': 0.0719, 'byte_2': 0.043, 'byte_3': 1.0}</small></section>
+<section><img src='CARRERAGT/0002_CARRERAGT_REARNET.png'><br><small>CARRERAGT_REARNET — alpha scores {'byte_0': 0.1312, 'byte_1': 0.4125, 'byte_2': 0.1312, 'byte_3': 0.4562}</small></section>
+<section><img src='CARRERAGT/0003_CARRERAGT_BADGING.png'><br><small>CARRERAGT_BADGING — alpha scores {'byte_0': 0.0492, 'byte_1': 0.0613, 'byte_2': 0.0973, 'byte_3': 0.5336}</small></section>
+<section><img src='CARRERAGT/0004_CARRERAGT_BRAKELIGHT.png'><br><small>CARRERAGT_BRAKELIGHT — alpha scores {'byte_0': 0.0926, 'byte_1': 0.3145, 'byte_2': 0.4812, 'byte_3': 1.0}</small></section>
+<h2>COBALTSS</h2>
+<section><img src='COBALTSS/0000_COBALTSS_BRAKELIGHT.png'><br><small>COBALTSS_BRAKELIGHT — alpha scores {'byte_0': 0.0148, 'byte_1': 0.1043, 'byte_2': 0.1121, 'byte_3': 1.0}</small></section>
+<section><img src='COBALTSS/0001_COBALTSS_CEBRAKELIGHT.png'><br><small>COBALTSS_CEBRAKELIGHT — alpha scores {'byte_0': 0.0574, 'byte_1': 0.0887, 'byte_2': 0.0898, 'byte_3': 0.6566}</small></section>
+<section><img src='COBALTSS/0002_COBALTSS_DETAILS.png'><br><small>COBALTSS_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3375, 'byte_2': 0.175, 'byte_3': 0.25}</small></section>
+<section><img src='COBALTSS/0003_COBALTSS_BADGING.png'><br><small>COBALTSS_BADGING — alpha scores {'byte_0': 0.0816, 'byte_1': 0.0895, 'byte_2': 0.0988, 'byte_3': 0.4004}</small></section>
+<section><img src='COBALTSS/0004_COBALTSS_HEADLIGHT.png'><br><small>COBALTSS_HEADLIGHT — alpha scores {'byte_0': 0.0738, 'byte_1': 0.052, 'byte_2': 0.0617, 'byte_3': 1.0}</small></section>
+<h2>CORVETTE</h2>
+<section><img src='CORVETTE/0000_CORVETTE_BADGING.png'><br><small>CORVETTE_BADGING — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2062, 'byte_2': 0.15, 'byte_3': 0.3375}</small></section>
+<section><img src='CORVETTE/0001_CORVETTE_BRAKELIGHT.png'><br><small>CORVETTE_BRAKELIGHT — alpha scores {'byte_0': 0.3754, 'byte_1': 0.6945, 'byte_2': 0.7, 'byte_3': 0.8559}</small></section>
+<section><img src='CORVETTE/0002_CORVETTE_DETAILS.png'><br><small>CORVETTE_DETAILS — alpha scores {'byte_0': 0.1062, 'byte_1': 0.2938, 'byte_2': 0.175, 'byte_3': 0.3562}</small></section>
+<h2>DB9</h2>
+<section><img src='DB9/0000_DB9_DETAILS.png'><br><small>DB9_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.275, 'byte_2': 0.175, 'byte_3': 0.2875}</small></section>
+<section><img src='DB9/0001_DB9_TAILLIGHT.png'><br><small>DB9_TAILLIGHT — alpha scores {'byte_0': 0.0355, 'byte_1': 0.0492, 'byte_2': 0.1148, 'byte_3': 1.0}</small></section>
+<section><img src='DB9/0002_DB9_HEADLIGHT.png'><br><small>DB9_HEADLIGHT — alpha scores {'byte_0': 0.007, 'byte_1': 0.0, 'byte_2': 0.0055, 'byte_3': 1.0}</small></section>
+<section><img src='DB9/0003_DB9_BADGING.png'><br><small>DB9_BADGING — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3125, 'byte_2': 0.1312, 'byte_3': 0.2687}</small></section>
+<h2>ECLIPSE</h2>
+<section><img src='ECLIPSE/0000_ECLIPSE_DETAILS.png'><br><small>ECLIPSE_DETAILS — alpha scores {'byte_0': 0.2625, 'byte_1': 0.3375, 'byte_2': 0.175, 'byte_3': 0.3125}</small></section>
+<section><img src='ECLIPSE/0001_ECLIPSE_HEADLIGHT.png'><br><small>ECLIPSE_HEADLIGHT — alpha scores {'byte_0': 0.1766, 'byte_1': 0.0988, 'byte_2': 0.052, 'byte_3': 1.0}</small></section>
+<section><img src='ECLIPSE/0002_ECLIPSE_TAILIGHT.png'><br><small>ECLIPSE_TAILIGHT — alpha scores {'byte_0': 0.0512, 'byte_1': 0.0496, 'byte_2': 0.0535, 'byte_3': 1.0}</small></section>
+<section><img src='ECLIPSE/0003_ECLIPSE_BADGING.png'><br><small>ECLIPSE_BADGING — alpha scores {'byte_0': 0.2375, 'byte_1': 0.3187, 'byte_2': 0.175, 'byte_3': 0.2562}</small></section>
+<h2>ELISE</h2>
+<section><img src='ELISE/0000_ELISE_DETAILS.png'><br><small>ELISE_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2062, 'byte_2': 0.1312, 'byte_3': 0.3312}</small></section>
+<section><img src='ELISE/0001_ELISE_TAILLIGHT.png'><br><small>ELISE_TAILLIGHT — alpha scores {'byte_0': 0.0027, 'byte_1': 0.0027, 'byte_2': 0.0355, 'byte_3': 1.0}</small></section>
+<section><img src='ELISE/0002_ELISE_HEADLIGHT.png'><br><small>ELISE_HEADLIGHT — alpha scores {'byte_0': 0.025, 'byte_1': 0.0219, 'byte_2': 0.0848, 'byte_3': 1.0}</small></section>
+<section><img src='ELISE/0003_ELISE_BADGING.png'><br><small>ELISE_BADGING — alpha scores {'byte_0': 0.0875, 'byte_1': 0.25, 'byte_2': 0.1312, 'byte_3': 0.3125}</small></section>
+<h2>FIREBIRD</h2>
+<section><img src='FIREBIRD/0000_FIREBIRD_BADGING.png'><br><small>FIREBIRD_BADGING — alpha scores {'byte_0': 0.175, 'byte_1': 0.2312, 'byte_2': 0.1312, 'byte_3': 0.375}</small></section>
+<section><img src='FIREBIRD/0001_FIREBIRD_BRAKELIGHT.png'><br><small>FIREBIRD_BRAKELIGHT — alpha scores {'byte_0': 0.0191, 'byte_1': 0.0109, 'byte_2': 0.0191, 'byte_3': 1.0}</small></section>
+<section><img src='FIREBIRD/0002_FIREBIRD_DETAILS.png'><br><small>FIREBIRD_DETAILS — alpha scores {'byte_0': 0.1312, 'byte_1': 0.3562, 'byte_2': 0.1312, 'byte_3': 0.275}</small></section>
+<section><img src='FIREBIRD/0003_FIREBIRD_HEADLIGHT.png'><br><small>FIREBIRD_HEADLIGHT — alpha scores {'byte_0': 0.0812, 'byte_1': 0.0602, 'byte_2': 0.05, 'byte_3': 1.0}</small></section>
+<h2>FORDGT</h2>
+<section><img src='FORDGT/0000_FORDGT_HEADLIGHT.png'><br><small>FORDGT_HEADLIGHT — alpha scores {'byte_0': 0.2828, 'byte_1': 0.1051, 'byte_2': 0.0898, 'byte_3': 1.0}</small></section>
+<section><img src='FORDGT/0001_FORDGT_TAILIGHTS.png'><br><small>FORDGT_TAILIGHTS — alpha scores {'byte_0': 0.0559, 'byte_1': 0.0355, 'byte_2': 0.2051, 'byte_3': 0.6035}</small></section>
+<section><img src='FORDGT/0002_FORDGT_BADGING.png'><br><small>FORDGT_BADGING — alpha scores {'byte_0': 0.15, 'byte_1': 0.2938, 'byte_2': 0.15, 'byte_3': 0.3375}</small></section>
+<section><img src='FORDGT/0003_FORDGT_DETAILS.png'><br><small>FORDGT_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.25, 'byte_2': 0.1312, 'byte_3': 0.2562}</small></section>
+<section><img src='FORDGT/0004_FORDGT_MISC.png'><br><small>FORDGT_MISC — alpha scores {'byte_0': 0.068, 'byte_1': 0.0406, 'byte_2': 0.0578, 'byte_3': 1.0}</small></section>
+<h2>GALLARDO</h2>
+<section><img src='GALLARDO/0000_GALLARDO_DETAILS.png'><br><small>GALLARDO_DETAILS — alpha scores {'byte_0': 0.2188, 'byte_1': 0.25, 'byte_2': 0.1312, 'byte_3': 0.2938}</small></section>
+<section><img src='GALLARDO/0001_GALLARDO_HEADLIGHT.png'><br><small>GALLARDO_HEADLIGHT — alpha scores {'byte_0': 0.1281, 'byte_1': 0.0688, 'byte_2': 0.0141, 'byte_3': 1.0}</small></section>
+<section><img src='GALLARDO/0002_GALLARDO_BADGING.png'><br><small>GALLARDO_BADGING — alpha scores {'byte_0': 0.0684, 'byte_1': 0.0645, 'byte_2': 0.0672, 'byte_3': 0.3449}</small></section>
+<section><img src='GALLARDO/0003_GALLARDO_BRAKELIGHT.png'><br><small>GALLARDO_BRAKELIGHT — alpha scores {'byte_0': 0.0516, 'byte_1': 0.116, 'byte_2': 0.0832, 'byte_3': 1.0}</small></section>
+<h2>GOLF</h2>
+<section><img src='GOLF/0000_GOLF_BRAKELIGHT.png'><br><small>GOLF_BRAKELIGHT — alpha scores {'byte_0': 0.0145, 'byte_1': 0.1543, 'byte_2': 0.1625, 'byte_3': 1.0}</small></section>
+<section><img src='GOLF/0001_GOLF_DETAILS.png'><br><small>GOLF_DETAILS — alpha scores {'byte_0': 0.175, 'byte_1': 0.2938, 'byte_2': 0.2188, 'byte_3': 0.2938}</small></section>
+<section><img src='GOLF/0002_GOLF_HEADLIGHT.png'><br><small>GOLF_HEADLIGHT — alpha scores {'byte_0': 0.1098, 'byte_1': 0.0762, 'byte_2': 0.0426, 'byte_3': 1.0}</small></section>
+<section><img src='GOLF/0003_GOLF_BADGING.png'><br><small>GOLF_BADGING — alpha scores {'byte_0': 0.2188, 'byte_1': 0.3375, 'byte_2': 0.2188, 'byte_3': 0.275}</small></section>
+<h2>GTO</h2>
+<section><img src='GTO/0000_GTO_DETAILS.png'><br><small>GTO_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2062, 'byte_2': 0.175, 'byte_3': 0.3187}</small></section>
+<section><img src='GTO/0001_GTO_TAILLIGHT.png'><br><small>GTO_TAILLIGHT — alpha scores {'byte_0': 0.1312, 'byte_1': 0.2812, 'byte_2': 0.1312, 'byte_3': 0.325}</small></section>
+<section><img src='GTO/0002_GTO_HEADLIGHT.png'><br><small>GTO_HEADLIGHT — alpha scores {'byte_0': 0.0219, 'byte_1': 0.0055, 'byte_2': 0.0109, 'byte_3': 1.0}</small></section>
+<section><img src='GTO/0003_GTO_BADGING.png'><br><small>GTO_BADGING — alpha scores {'byte_0': 0.1312, 'byte_1': 0.3312, 'byte_2': 0.1312, 'byte_3': 0.275}</small></section>
+<h2>LANCER</h2>
+<section><img src='LANCER/0000_LANCER_BADGING.png'><br><small>LANCER_BADGING — alpha scores {'byte_0': 0.1312, 'byte_1': 0.3375, 'byte_2': 0.2375, 'byte_3': 0.1937}</small></section>
+<section><img src='LANCER/0001_LANCER_DETAILS.png'><br><small>LANCER_DETAILS — alpha scores {'byte_0': 0.1312, 'byte_1': 0.2687, 'byte_2': 0.1312, 'byte_3': 0.2938}</small></section>
+<section><img src='LANCER/0002_LANCER_KIT00_BRAKELIGHT.png'><br><small>LANCER_KIT00_BRAKELIGHT — alpha scores {'byte_0': 0.0289, 'byte_1': 0.0965, 'byte_2': 0.1227, 'byte_3': 1.0}</small></section>
+<section><img src='LANCER/0003_LANCER_KIT00_HEADLIGHT.png'><br><small>LANCER_KIT00_HEADLIGHT — alpha scores {'byte_0': 0.159, 'byte_1': 0.0684, 'byte_2': 0.0723, 'byte_3': 1.0}</small></section>
+<h2>MAZDA3</h2>
+<section><img src='MAZDA3/0000_MAZDA3_BADGING.png'><br><small>MAZDA3_BADGING — alpha scores {'byte_0': 0.175, 'byte_1': 0.275, 'byte_2': 0.2375, 'byte_3': 0.2125}</small></section>
+<section><img src='MAZDA3/0001_MAZDA3_BRAKELIGHT.png'><br><small>MAZDA3_BRAKELIGHT — alpha scores {'byte_0': 0.0352, 'byte_1': 0.0328, 'byte_2': 0.0328, 'byte_3': 1.0}</small></section>
+<section><img src='MAZDA3/0002_MAZDA3_DETAILS.png'><br><small>MAZDA3_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3812, 'byte_2': 0.175, 'byte_3': 0.2687}</small></section>
+<section><img src='MAZDA3/0003_MAZDA3_HEADLIGHT.png'><br><small>MAZDA3_HEADLIGHT — alpha scores {'byte_0': 0.118, 'byte_1': 0.1164, 'byte_2': 0.0953, 'byte_3': 1.0}</small></section>
+<h2>MR2</h2>
+<section><img src='MR2/0000_MR2_DETAILS.png'><br><small>MR2_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.225, 'byte_2': 0.1312, 'byte_3': 0.3187}</small></section>
+<section><img src='MR2/0001_MR2_TAILLIGHT.png'><br><small>MR2_TAILLIGHT — alpha scores {'byte_0': 0.0066, 'byte_1': 0.0191, 'byte_2': 0.0902, 'byte_3': 1.0}</small></section>
+<section><img src='MR2/0002_MR2_HEADLIGHT.png'><br><small>MR2_HEADLIGHT — alpha scores {'byte_0': 0.007, 'byte_1': 0.0, 'byte_2': 0.0, 'byte_3': 1.0}</small></section>
+<section><img src='MR2/0003_MR2_BADGING.png'><br><small>MR2_BADGING — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2562, 'byte_2': 0.1312, 'byte_3': 0.3125}</small></section>
+<h2>MURCIELAGO</h2>
+<section><img src='MURCIELAGO/0000_MURCIELAGO_DETAILS.png'><br><small>MURCIELAGO_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2687, 'byte_2': 0.1312, 'byte_3': 0.3562}</small></section>
+<section><img src='MURCIELAGO/0001_MURCIELAGO_TAILLIGHT.png'><br><small>MURCIELAGO_TAILLIGHT — alpha scores {'byte_0': 0.025, 'byte_1': 0.0383, 'byte_2': 0.0684, 'byte_3': 1.0}</small></section>
+<section><img src='MURCIELAGO/0002_MURCIELAGO_HEADLIGHT.png'><br><small>MURCIELAGO_HEADLIGHT — alpha scores {'byte_0': 0.0301, 'byte_1': 0.0164, 'byte_2': 0.082, 'byte_3': 1.0}</small></section>
+<section><img src='MURCIELAGO/0003_MURCIELAGO_BADGING.png'><br><small>MURCIELAGO_BADGING — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3375, 'byte_2': 0.1312, 'byte_3': 0.2125}</small></section>
+<h2>MUSTANG67</h2>
+<section><img src='MUSTANG67/0000_MUSTANG67_DETAILS.png'><br><small>MUSTANG67_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2938, 'byte_2': 0.1312, 'byte_3': 0.3375}</small></section>
+<section><img src='MUSTANG67/0001_MUSTANG67_TAILLIGHT.png'><br><small>MUSTANG67_TAILLIGHT — alpha scores {'byte_0': 0.018, 'byte_1': 0.0492, 'byte_2': 0.216, 'byte_3': 1.0}</small></section>
+<section><img src='MUSTANG67/0002_MUSTANG67_HEADLIGHT.png'><br><small>MUSTANG67_HEADLIGHT — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3688, 'byte_2': 0.1312, 'byte_3': 0.5}</small></section>
+<section><img src='MUSTANG67/0003_MUSTANG67_BADGING.png'><br><small>MUSTANG67_BADGING — alpha scores {'byte_0': 0.1312, 'byte_1': 0.3375, 'byte_2': 0.1312, 'byte_3': 0.3125}</small></section>
+<h2>MUSTANGGT</h2>
+<section><img src='MUSTANGGT/0000_MUSTANGGT_BADGING.png'><br><small>MUSTANGGT_BADGING — alpha scores {'byte_0': 0.0641, 'byte_1': 0.0898, 'byte_2': 0.0895, 'byte_3': 0.5086}</small></section>
+<section><img src='MUSTANGGT/0001_MUSTANGGT_DETAILS.png'><br><small>MUSTANGGT_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3063, 'byte_2': 0.175, 'byte_3': 0.3187}</small></section>
+<section><img src='MUSTANGGT/0002_MUSTANGGT_HEADLIGHT.png'><br><small>MUSTANGGT_HEADLIGHT — alpha scores {'byte_0': 0.1781, 'byte_1': 0.141, 'byte_2': 0.141, 'byte_3': 1.0}</small></section>
+<section><img src='MUSTANGGT/0003_MUSTANGGT_TAILLIGHT.png'><br><small>MUSTANGGT_TAILLIGHT — alpha scores {'byte_0': 0.0938, 'byte_1': 0.4074, 'byte_2': 0.1449, 'byte_3': 0.3445}</small></section>
+<h2>RX7</h2>
+<section><img src='RX7/0000_RX7_DETAILS.png'><br><small>RX7_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.25, 'byte_2': 0.1312, 'byte_3': 0.2938}</small></section>
+<section><img src='RX7/0001_RX7_TAILLIGHT.png'><br><small>RX7_TAILLIGHT — alpha scores {'byte_0': 0.175, 'byte_1': 0.2812, 'byte_2': 0.1312, 'byte_3': 0.325}</small></section>
+<section><img src='RX7/0002_RX7_HEADLIGHT.png'><br><small>RX7_HEADLIGHT — alpha scores {'byte_0': 0.0832, 'byte_1': 0.0164, 'byte_2': 0.0355, 'byte_3': 1.0}</small></section>
+<section><img src='RX7/0003_RX7_BADGING.png'><br><small>RX7_BADGING — alpha scores {'byte_0': 0.175, 'byte_1': 0.3125, 'byte_2': 0.1312, 'byte_3': 0.375}</small></section>
+<h2>RX8</h2>
+<section><img src='RX8/0000_RX8_BADGING.png'><br><small>RX8_BADGING — alpha scores {'byte_0': 0.125, 'byte_1': 0.125, 'byte_2': 0.125, 'byte_3': 0.35}</small></section>
+<section><img src='RX8/0001_RX8_DETAILS.png'><br><small>RX8_DETAILS — alpha scores {'byte_0': 0.1312, 'byte_1': 0.2062, 'byte_2': 0.1312, 'byte_3': 0.2562}</small></section>
+<section><img src='RX8/0002_RX8_KIT00_BRAKELIGHT_CENTRE.png'><br><small>RX8_KIT00_BRAKELIGHT_CENTRE — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2812, 'byte_2': 0.1312, 'byte_3': 0.325}</small></section>
+<section><img src='RX8/0003_RX8_KIT00_BRAKELIGHT_OFF.png'><br><small>RX8_KIT00_BRAKELIGHT_OFF — alpha scores {'byte_0': 0.2625, 'byte_1': 0.325, 'byte_2': 0.1312, 'byte_3': 0.5437}</small></section>
+<section><img src='RX8/0004_RX8_KIT00_HEADLIGHT.png'><br><small>RX8_KIT00_HEADLIGHT — alpha scores {'byte_0': 0.1629, 'byte_1': 0.0762, 'byte_2': 0.0414, 'byte_3': 1.0}</small></section>
+<h2>SKYLINE</h2>
+<section><img src='SKYLINE/0000_SKYLINE_DETAILS.png'><br><small>SKYLINE_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.25, 'byte_2': 0.1312, 'byte_3': 0.35}</small></section>
+<section><img src='SKYLINE/0001_SKYLINE_HEADLIGHTS.png'><br><small>SKYLINE_HEADLIGHTS — alpha scores {'byte_0': 0.0195, 'byte_1': 0.0055, 'byte_2': 0.0574, 'byte_3': 1.0}</small></section>
+<section><img src='SKYLINE/0002_SKYLINE_BADGING.png'><br><small>SKYLINE_BADGING — alpha scores {'byte_0': 0.2188, 'byte_1': 0.25, 'byte_2': 0.175, 'byte_3': 0.3312}</small></section>
+<section><img src='SKYLINE/0003_SKYLINE_BRAKELIGHTS.png'><br><small>SKYLINE_BRAKELIGHTS — alpha scores {'byte_0': 0.2188, 'byte_1': 0.3063, 'byte_2': 0.175, 'byte_3': 0.2687}</small></section>
+<h2>SL65AMG</h2>
+<section><img src='SL65AMG/0000_SL65AMG_DETAILS.png'><br><small>SL65AMG_DETAILS — alpha scores {'byte_0': 0.1312, 'byte_1': 0.2938, 'byte_2': 0.1312, 'byte_3': 0.3063}</small></section>
+<section><img src='SL65AMG/0001_SL65AMG_TAILLIGHT.png'><br><small>SL65AMG_TAILLIGHT — alpha scores {'byte_0': 0.1312, 'byte_1': 0.2812, 'byte_2': 0.1312, 'byte_3': 0.3688}</small></section>
+<section><img src='SL65AMG/0002_SL65AMG_HEADLIGHT.png'><br><small>SL65AMG_HEADLIGHT — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3688, 'byte_2': 0.1312, 'byte_3': 0.4562}</small></section>
+<section><img src='SL65AMG/0003_SL65AMG_BADGING.png'><br><small>SL65AMG_BADGING — alpha scores {'byte_0': 0.175, 'byte_1': 0.2125, 'byte_2': 0.2188, 'byte_3': 0.4187}</small></section>
+<h2>SOLSTICE</h2>
+<section><img src='SOLSTICE/0000_SOLSTICE_DETAILS.png'><br><small>SOLSTICE_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3562, 'byte_2': 0.1312, 'byte_3': 0.25}</small></section>
+<section><img src='SOLSTICE/0001_SOLSTICE_HEADLIGHT.png'><br><small>SOLSTICE_HEADLIGHT — alpha scores {'byte_0': 0.1312, 'byte_1': 0.325, 'byte_2': 0.1312, 'byte_3': 0.4562}</small></section>
+<section><img src='SOLSTICE/0002_SOLSTICE_BADGING.png'><br><small>SOLSTICE_BADGING — alpha scores {'byte_0': 0.0605, 'byte_1': 0.0656, 'byte_2': 0.093, 'byte_3': 0.4789}</small></section>
+<section><img src='SOLSTICE/0003_SOLSTICE_BRAKELIGHT.png'><br><small>SOLSTICE_BRAKELIGHT — alpha scores {'byte_0': 0.175, 'byte_1': 0.2812, 'byte_2': 0.2625, 'byte_3': 0.325}</small></section>
+<section><img src='SOLSTICE/0004_SOLSTICE_SOFTTOP.png'><br><small>SOLSTICE_SOFTTOP — alpha scores {'byte_0': 0.1312, 'byte_1': 0.2812, 'byte_2': 0.1312, 'byte_3': 0.325}</small></section>
+<h2>SUPRA</h2>
+<section><img src='SUPRA/0000_SUPRA_BADGING.png'><br><small>SUPRA_BADGING — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2312, 'byte_2': 0.175, 'byte_3': 0.2938}</small></section>
+<section><img src='SUPRA/0001_SUPRA_HEADLIGHT.png'><br><small>SUPRA_HEADLIGHT — alpha scores {'byte_0': 0.0875, 'byte_1': 0.2812, 'byte_2': 0.1312, 'byte_3': 0.5}</small></section>
+<section><img src='SUPRA/0002_SUPRA_BRAKELIGHT.png'><br><small>SUPRA_BRAKELIGHT — alpha scores {'byte_0': 0.1312, 'byte_1': 0.325, 'byte_2': 0.175, 'byte_3': 0.325}</small></section>
+<section><img src='SUPRA/0003_SUPRA_DETAILS.png'><br><small>SUPRA_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3187, 'byte_2': 0.1312, 'byte_3': 0.2687}</small></section>
+<h2>TT</h2>
+<section><img src='TT/0000_TT_TAILLIGHT.png'><br><small>TT_TAILLIGHT — alpha scores {'byte_0': 0.3062, 'byte_1': 0.325, 'byte_2': 0.2625, 'byte_3': 0.3688}</small></section>
+<section><img src='TT/0001_TT_BADGING.png'><br><small>TT_BADGING — alpha scores {'byte_0': 0.1687, 'byte_1': 0.3187, 'byte_2': 0.175, 'byte_3': 0.4437}</small></section>
+<section><img src='TT/0002_TT_DETAILS.png'><br><small>TT_DETAILS — alpha scores {'byte_0': 0.175, 'byte_1': 0.2687, 'byte_2': 0.3062, 'byte_3': 0.3}</small></section>
+<section><img src='TT/0003_TT_HEADLIGHT.png'><br><small>TT_HEADLIGHT — alpha scores {'byte_0': 0.1062, 'byte_1': 0.5, 'byte_2': 0.1937, 'byte_3': 0.5875}</small></section>
+<h2>WRXSTI</h2>
+<section><img src='WRXSTI/0000_WRXSTI_BADGING.png'><br><small>WRXSTI_BADGING — alpha scores {'byte_0': 0.2125, 'byte_1': 0.2312, 'byte_2': 0.1937, 'byte_3': 0.4}</small></section>
+<section><img src='WRXSTI/0001_WRXSTI_HEADLIGHT.png'><br><small>WRXSTI_HEADLIGHT — alpha scores {'byte_0': 0.1242, 'byte_1': 0.073, 'byte_2': 0.0344, 'byte_3': 1.0}</small></section>
+<section><img src='WRXSTI/0002_WRXSTI_DETAILS.png'><br><small>WRXSTI_DETAILS — alpha scores {'byte_0': 0.0875, 'byte_1': 0.3375, 'byte_2': 0.1312, 'byte_3': 0.2938}</small></section>
+<section><img src='WRXSTI/0003_WRXSTI_BRAKELIGHT.png'><br><small>WRXSTI_BRAKELIGHT — alpha scores {'byte_0': 0.2375, 'byte_1': 0.2074, 'byte_2': 0.2242, 'byte_3': 0.1937}</small></section>

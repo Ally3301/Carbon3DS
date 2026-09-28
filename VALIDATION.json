@@ -1,0 +1,28 @@
+{
+  "status": "PASS_HOST",
+  "checks": {
+    "python_tool_syntax": "11/11",
+    "normalized_vehicles": 43,
+    "normalized_parts": 830,
+    "normalized_vehicle_textures": 159,
+    "vehicle_manifest_errors": 0,
+    "races_with_R1_cdl": 40,
+    "garage_obj_exists": true,
+    "host_test_exit": 0,
+    "host_test_stdout": [
+      "physics and ordered checkpoint tests passed",
+      "C loader accepted 830 real N3P vehicle components",
+      "Malformed N3P files and unsafe archive paths rejected; UBSan clean",
+      "Global materials, dynamic PAINT, WINDOW and 229 wheel textures validated"
+    ]
+  },
+  "errors": [],
+  "note": "3DS cross-build not executed here because devkitPro is unavailable in this environment.",
+  "date": "2026-09-25",
+  "latest_change": "T3X subtexture UV/rotation preservation and application",
+  "host_test_exit": 0,
+  "scene_validate_exit": 0,
+  "texture_uv_tests": "ordinary + rotated affine mapping passed",
+  "cross_build": "not run in this environment (devkitPro unavailable)",
+  "hardware_validation": "pending"
+}

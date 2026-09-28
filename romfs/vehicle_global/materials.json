@@ -1,0 +1,114 @@
+{
+  "materials": [
+    {
+      "material": 1000,
+      "name": "CARBONFIBRE",
+      "role": "carbon_fibre",
+      "source": "race_car_common.msh",
+      "png": "materials/1000_CARBONFIBRE.png",
+      "format": "0x3076",
+      "width": 128,
+      "height": 128,
+      "variant": "rgba4444_le"
+    },
+    {
+      "material": 1001,
+      "name": "CarBottom",
+      "role": "car_bottom",
+      "source": "race_car_common.msh",
+      "png": "materials/1001_CarBottom.png",
+      "format": "0x3076",
+      "width": 64,
+      "height": 32,
+      "variant": "rgba4444_le"
+    },
+    {
+      "material": 1002,
+      "name": "DRIVER",
+      "role": "driver",
+      "source": "race_car_common.msh",
+      "png": "materials/1002_DRIVER.png",
+      "format": "0x3076",
+      "width": 32,
+      "height": 32,
+      "variant": "rgba4444_le"
+    },
+    {
+      "material": 1003,
+      "name": "MESH",
+      "role": "mesh",
+      "source": "race_car_common.msh",
+      "png": "materials/1003_MESH.png",
+      "format": "0x3076",
+      "width": 128,
+      "height": 32,
+      "variant": "rgba4444_le"
+    },
+    {
+      "material": 1004,
+      "name": "Carbon_red_legend",
+      "role": "legend_carbon",
+      "source": "race_car_common.msh",
+      "png": "materials/1004_Carbon_red_legend.png",
+      "format": "0x3076",
+      "width": 128,
+      "height": 128,
+      "variant": "rgba4444_le"
+    },
+    {
+      "material": 1500,
+      "name": "PAINT",
+      "role": "paint_dynamic",
+      "source": "race_car_modable.msh",
+      "png": "materials/1500_PAINT.png",
+      "format": "0x1058",
+      "width": 128,
+      "height": 128,
+      "variant": "rgb565_rlo"
+    },
+    {
+      "material": 1501,
+      "name": "WINDOW",
+      "role": "window",
+      "source": "race_car_modable.msh",
+      "png": "materials/1501_WINDOW.png",
+      "format": "0x505B",
+      "width": 4,
+      "height": 4,
+      "variant": "rgba8888_direct"
+    },
+    {
+      "material": 1990,
+      "name": "DUMMY_WHEEL",
+      "role": "dummy_wheel",
+      "source": "wheel_modable.msh",
+      "png": "materials/1990_DUMMY_WHEEL.png",
+      "format": "0x5077",
+      "width": 64,
+      "height": 64,
+      "variant": "rgba8888_t4"
+    },
+    {
+      "material": 1995,
+      "name": "TIRE_BACK",
+      "role": "tire_back",
+      "source": "wheel_common.msh",
+      "png": "materials/1995_TIRE_BACK.png",
+      "format": "0x5077",
+      "width": 64,
+      "height": 64,
+      "variant": "rgba8888_t4"
+    },
+    {
+      "material": 1996,
+      "name": "CALIPER",
+      "role": "caliper",
+      "source": "wheel_common.msh",
+      "png": "materials/1996_CALIPER.png",
+      "format": "0x5077",
+      "width": 64,
+      "height": 64,
+      "variant": "rgba8888_t4"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "format": "N3S1",
+  "section": "l3rl_3401/A1",
+  "source": "tracks/l3rl_3401.viv:A1.cdl+A1.msh",
+  "normalized_sha256": "b986ca044f82220bb6bc2879c31dfbe5850519708d1e16ea8a894bf2fb783beb",
+  "vertices": 3817,
+  "triangles": 1955,
+  "batches": 42,
+  "bounds": [
+    -41.03125,
+    -2.2626953,
+    -39.339844,
+    39.15625,
+    25.893555,
+    53.554688
+  ],
+  "scene_bytes": 158134,
+  "texture_bytes": 1507328,
+  "materials": [
+    {
+      "key": "l3rl_3401/A1_29",
+      "source": "textures/0000_steelbeam.png",
+      "texture": "scene_tex/f71149ab50bb53748e9ed1c5c41aa7bd5d83fb6bcc886656b4e033d0b73d403e.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "46f8203b4c06f850df9728b533d4a222054bce75d62d743a16b2c8552b6bcb1a"
+    },
+    {
+      "key": "l3rl_3401/A1_26",
+      "source": "textures/0001_safehouse_ground.png",
+      "texture": "scene_tex/97a7e41ab25e177ef68c12dedb376ebd17a5c6871dfa0278e10f2d16b2a129d6.rgba",
+      "width": 256,
+      "height": 256,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "48d3a95cbc4f8131f01c7512207e136606803fdf8c9f14b4c708793c3a3e49ab"
+    },
+    {
+      "key": "l3rl_3401/A1_25",
+      "source": "textures/0002_safehouse_brickwall.png",
+      "texture": "scene_tex/e41f36ccc166462abc132ebd3a62b010cd710afde1b65f1d1c6cf9a509b49c56.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "fae74c34601e8802e6eb05f2076885d777be92f3fe3b6d49e956c25fe50cdd23"
+    },
+    {
+      "key": "l3rl_3401/A1_32",
+      "source": "textures/0009_safehouse_door.png",
+      "texture": "scene_tex/532347a0568e36191c3840d9722a39a9d248b584c55a3fa74c547b48bacae050.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "ea27a98e7866ca36f3975fa0d21ee63b9613ae4ec6ae885eecec188271eefbd1"
+    },
+    {
+      "key": "l3rl_3401/A1_42",
+      "source": "textures/0021_toolchest.png",
+      "texture": "scene_tex/b599f4e21000f406049ec59a89c81a4561f15086ea56ff6edc0d1a6a3245d10b.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "4b53495f05ff077c548b5eff30673712f0749a6fa511ae1f13efa3df610a661f"
+    },
+    {
+      "key": "l3rl_3401/A1_36",
+      "source": "textures/0022_toolchest_open.png",
+      "texture": "scene_tex/f73efd143472a4764c2c1d4ee3a18d5da1b0f1c6d7fdc1248f78c6755fa80e35.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "7df979627f9283b05b41b058cf248db1acf7f47cf1b85c62a8dca45d14d9083d"
+    },
+    {
+      "key": "l3rl_3401/A1_37",
+      "source": "textures/0027_workbench.png",
+      "texture": "scene_tex/815fd55574a84a8971a0203f0f3acdfc4f9112c9387218d0e46fb6d728f32827.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "f5d4dadc73600224de7ea00c7bfde6ba41dde85e91912b56842fbf4d4a5a7729"
+    },
+    {
+      "key": "l3rl_3401/A1_28",
+      "source": "textures/0028_backdrop_01.png",
+      "texture": "scene_tex/bdcdfbf8e82f2707cc5d7f3f433183d72cc9d23b8d67b619446c0455eff412d1.rgba",
+      "width": 256,
+      "height": 128,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "d8029e9f674c4cb619be177a1c7fa2eea462be0e300809bb18db058c4ea08c33"
+    },
+    {
+      "key": "l3rl_3401/A1_43",
+      "source": "textures/0029_barrels.png",
+      "texture": "scene_tex/c70e7618e6ff9d95d849e509b981beeb6deecbb67a7372157650bb6d36daff6a.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "a4efbee6af4e38997482006111c53a1578fe4883052fb384a285a59eec1140c7"
+    },
+    {
+      "key": "l3rl_3401/A1_39",
+      "source": "textures/0032_cabinet.png",
+      "texture": "scene_tex/fc0b14c62652671852ee59c093fccae3f22e4de5dbb4d0e2589a121050d18a09.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "2886f2acdf5ab07edcb99a9a0bb7e1eb1f39af845d009ecf021cf090cedd117a"
+    },
+    {
+      "key": "l3rl_3401/A1_41",
+      "source": "textures/0037_crate.png",
+      "texture": "scene_tex/abab2b43627107a563645218217bac308b9edfb2a1a618c00bde3b16b408094d.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "908016fa987cf3e117f3f23249b5b4cae34af191e3cb367056e866eee34f28d8"
+    },
+    {
+      "key": "l3rl_3401/A1_33",
+      "source": "textures/0040_DJTable.png",
+      "texture": "scene_tex/130a3cb9f6557c185ee0b68e68df536565096ac5c7c898d27f313acc87b04476.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "54c8a3c8a7271c0bcc77701cda557878489dc2d289a08c33b04d3f4ea0906320"
+    },
+    {
+      "key": "l3rl_3401/A1_44",
+      "source": "textures/0041_Dlaptop_01.png",
+      "texture": "scene_tex/a35c1f77b59285c6b312fbf6b422c78992e56baaa73dc11e4e2126d4603a9d23.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "6e7b236375937e702934fd7bd9e57ec36a7488cd6290f549ba0fc9ff9b98014b"
+    },
+    {
+      "key": "l3rl_3401/A1_16",
+      "source": "textures/0042_entertainmentcentre.png",
+      "texture": "scene_tex/d94b930d9cc2460e52e82cb6faf45ee394c109e63ac9f418642f7851d40e2f84.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "3c4455aba17a987df874fcaa6f863f85e617bd57b09ff8d61e3dbe7e3d28d4b6"
+    },
+    {
+      "key": "l3rl_3401/A1_27",
+      "source": "textures/0045_garage_texture.png",
+      "texture": "scene_tex/a4cc375b3b5398f17724bb1fffc73480d1dda5395b134dddb49fdcfdb002d6d0.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "d385ed1ee5a42d46c32bfed20f622116d42f57f8dca05cd85b7510b4e0c655d3"
+    },
+    {
+      "key": "l3rl_3401/A1_38",
+      "source": "textures/0047_jack.png",
+      "texture": "scene_tex/9957e8eb4407a63ca14533c077e291160c87cc84010068bf9a73082e74926bc9.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "0533bd9f7ef6e7928b6c85393bf806fe0d7eef32764c4ea2f759c40502e144f0"
+    },
+    {
+      "key": "l3rl_3401/A1_40",
+      "source": "textures/0050_locker.png",
+      "texture": "scene_tex/1773672be82ebe9778be36b13adbe2f0eb9fd604475bf608ef526f254c6a3ac9.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "c50bf3277cfcd4ef2a4ae232613faf637ba0c24c0a8da57412832c018d84d03f"
+    },
+    {
+      "key": "l3rl_3401/A1_34",
+      "source": "textures/0054_OBJ_crate_side1.png",
+      "texture": "scene_tex/5169cd5ec99deda6f58bbdbaafb3ce75739d21848fcb9578f86b34d9d30f647a.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "8564223eb5b971150bbe1a8eb0912681d95da39d06b4f8c67b5692973082c1f2"
+    },
+    {
+      "key": "l3rl_3401/A1_35",
+      "source": "textures/0058_parts_bin.png",
+      "texture": "scene_tex/e449e0c2071bebfb121f22d87a4a3e1f64cbdac0fc2b36243f189a0e912b2f35.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "39c73ef3b0860d9e805960bd10fb267b930432c79634fe66e7ca80665614c9f1"
+    },
+    {
+      "key": "l3rl_3401/A1_30",
+      "source": "textures/0060_safehouse_exit.png",
+      "texture": "scene_tex/124ac0a00e5e51bb054c2a50b8f93bb303dcad189c77e605ab21b056a711a7b8.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "3f1bc07b4de74857f24da9a4446bd2134473005263aa1a3f5c31a904771c3ec0"
+    },
+    {
+      "key": "l3rl_3401/A1_23",
+      "source": "textures/0019_tailpipetexture.png",
+      "texture": "scene_tex/d34279b46249ebfec810178c9cdb85eb08e33f08196b7d8b4d0d874c5e2dfd95.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "16d29cc070629ec3c1dc914f63f6e1b0904f0ef871950cba4c205de56588e159"
+    },
+    {
+      "key": "l3rl_3401/A1_22",
+      "source": "textures/0030_block.png",
+      "texture": "scene_tex/8731e26a29292b03ba625d92c116e83f7ae6df8a37c9d15982654a153349f740.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "41234caaf0d950078317c1a354c292f539d72b7a153c7100b1eff22d2d92f860"
+    },
+    {
+      "key": "l3rl_3401/A1_21",
+      "source": "textures/0033_cable.png",
+      "texture": "scene_tex/62833dd2b37020cd67bc95aa010b43e3155223cad4b6e370f008242a6eb658eb.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "7ff78698d4110a92de246350b178be6f1abfc27bc904fb941fead14eb49a1599"
+    },
+    {
+      "key": "l3rl_3401/A1_20",
+      "source": "textures/0051_metalnchain.png",
+      "texture": "scene_tex/f0a5796457bd549291ee46b5b02743edff167adda5315fc69abf0c694e65935a.rgba",
+      "width": 64,
+      "height": 128,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "401a2ae7381d62ecca6f5dc3d20ae68316af6fff3c1019c083d882bfe3b44b4b"
+    },
+    {
+      "key": "l3rl_3401/A1_24",
+      "source": "textures/0056_paint.png",
+      "texture": "scene_tex/b3a690adcbafc9dcc5182b0e7964a09565bae8fc477a6f21adbe9341c50af9b9.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "1521ade32342e5f7d82d4cff041410cc636e9db416cf2014ff478a0ab4378547"
+    },
+    {
+      "key": "l3rl_3401/A1_18",
+      "source": "textures/0016_shadow.png",
+      "texture": "scene_tex/73439e007ae3ce4d7312c4cdc6ff630fcc3ea372e8f3f7a20a674423c6cb4e99.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "52b8836cdf659be6dafbfa1ee3d369e73ae972031c0a504fef310dfbc1ad6523"
+    },
+    {
+      "key": "l3rl_3401/A1_17",
+      "source": "textures/0018_surveillence_tv.png",
+      "texture": "scene_tex/13ec2d0d843d6bafe3034c4e0a361290dd8b985162051f778611045fd30e5df9.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "82ebec9e497fba28910e0a548de64d228d42bebebeb2d7d9feeedfb710ac99e4"
+    },
+    {
+      "key": "l3rl_3401/A1_14",
+      "source": "textures/0062_safehouse_spycam1.png",
+      "texture": "scene_tex/d425d404f31671bf836c65c0894871b01252e30bf5d5536ced59d763350b9944.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "92b892185eb8d2637c8094585aec70297545b26569cd8eff4bf5a83dd7f899df"
+    },
+    {
+      "key": "l3rl_3401/A1_12",
+      "source": "textures/0064_safehouse_spycam2.png",
+      "texture": "scene_tex/bb08904af9328d6a4bab7c2dc182e3c33f4da15f4031b6808dcbc12ab8434660.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "4cba342b4abcb0252268c98eb97dfc7ca8dee38430c6deb58c9817f0b73bc64c"
+    },
+    {
+      "key": "l3rl_3401/A1_5",
+      "source": "textures/0004_safehouse_blogg.png",
+      "texture": "scene_tex/822d414895f3e5fdbae3ccb0394d969c9a6e1cf9b505c3f2bec63f7787084591.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "806b6873629ad71cdd68db9be2af67d83ee33c5e9ce9de19501a159b608a77fd"
+    },
+    {
+      "key": "l3rl_3401/A1_4",
+      "source": "textures/0005_safehouse_brad.png",
+      "texture": "scene_tex/bf5264eefd4a987534d05d4f0efe22d601872c14d4ed93bce83d2977dff1910c.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "2b6755ee130849906401b1d25ddc603327f012a8b6923f31ac27399aa0d00edf"
+    },
+    {
+      "key": "l3rl_3401/A1_8",
+      "source": "textures/0007_safehouse_dap.png",
+      "texture": "scene_tex/dfaefb8ef648b6c9435bf6d912d24e2edf3c87c55d01882bac79644edfc3b465.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "1ffeeaae02be7d2152e442b599433869b8ad7e0f51676b40d75d3c7de04ca654"
+    },
+    {
+      "key": "l3rl_3401/A1_3",
+      "source": "textures/0008_safehouse_derf.png",
+      "texture": "scene_tex/1c6760086995b4c9986cc245f3e3fc4febc08e58adeb896f7cc2409e90a96c70.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "fbde2e42d8800cb6c579dc084aa80387e6b967172bb9fb4846b354d17b2e2b23"
+    },
+    {
+      "key": "l3rl_3401/A1_9",
+      "source": "textures/0010_safehouse_etruscan.png",
+      "texture": "scene_tex/13cf270cafb50f9b730b8780f4c31523cc44b000988f437223278a0eb3580900.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "dfeea183eb6c86023a59ee9fc90d8b8827d8733b0f159563801d1fb8f14079bd"
+    },
+    {
+      "key": "l3rl_3401/A1_7",
+      "source": "textures/0011_safehouse_gore.png",
+      "texture": "scene_tex/83600cd36d079bfec1ddbf4b14f136493ec9fe3311a08c4530fc434b6080f6a8.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "7ceb868dc8f98d5cea4a532701e014cca8ac5b8af65c131dd58e6194f2dd01f1"
+    },
+    {
+      "key": "l3rl_3401/A1_6",
+      "source": "textures/0014_safehouse_ron.png",
+      "texture": "scene_tex/167678c472ef2737fbcc354cd29a21c6cbaee2d5bbf343360e72b405a6bb0633.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "6cb00d0d2aa5ed06c825c7a866fc5fdacd034dba3dbf169f966be0f5bdc1dd43"
+    },
+    {
+      "key": "l3rl_3401/A1_2",
+      "source": "textures/0015_safehouse_TC.png",
+      "texture": "scene_tex/938837dea3a2377938166972f17ead0e40f5302b66a775d508e3a7b76cf13a2b.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "b0eacf74664eff303368c661023e9651a187877c79289f4605da800196fdd213"
+    },
+    {
+      "key": "l3rl_3401/A1_10",
+      "source": "textures/0006_safehouse_bulblight.png",
+      "texture": "scene_tex/e36423144aa0b855c5c5c46da31b41183edb14b5cd123569ccc77d2d497e7970.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "e80acbdb8ee51dd61ecf8c68d25aad49b28fc36bac357154a8ff94a340109a4c"
+    },
+    {
+      "key": "l3rl_3401/A1_0",
+      "source": "textures/0013_safehouse_lightbloom.png",
+      "texture": "scene_tex/3c888f64769f01eee53a57fcfa1c4ccdf4d39657be034a8cba3d351ec954f69f.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 3,
+      "alpha_evidence": "red-channel bloom coverage + additive blend",
+      "sha256": "31b4cc1a0887557ffd20771acf692c0939f5395a544b44dc2827284630dd5b07"
+    },
+    {
+      "key": "l3rl_3401/A1_11",
+      "source": "textures/0066_safehouse_parkingLines.png",
+      "texture": "scene_tex/f3b63b5a279159c9abf4027a386e938509d9c67281478d5f8bae1b3f6ca82614.rgba",
+      "width": 64,
+      "height": 128,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "6489b8b4c1cdb9db1fab0a8e17ed9f7624ecd2af12f15ca0191b3262f0a499cd"
+    },
+    {
+      "key": "l3rl_3401/A1_1",
+      "source": "textures/0044_floorlamp.png",
+      "texture": "scene_tex/e8ead832c64fa8463e57de69575ba13535c811b74c043adff9a3ee699744be16.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "afeb583ac4c80884877ab86f4b4380c9ff56a518ebce4031ec849eda2f71516d"
+    },
+    {
+      "key": "l3rl_3401/A1_19",
+      "source": "textures/0024_treadmark_circle.png",
+      "texture": "scene_tex/73ead12cf2f89eed69bed077ab88deed28094891edbad3ec2231ba966d9eb005.rgba",
+      "width": 256,
+      "height": 256,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "e750b0bffac7e548ce90472dd391afd343e322d92154317d5d986b08f40aede8"
+    }
+  ]
+}

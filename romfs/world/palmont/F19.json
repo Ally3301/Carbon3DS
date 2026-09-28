@@ -1,0 +1,261 @@
+{
+  "format": "N3S1",
+  "section": "opwd_3000/F19",
+  "source": "tracks/opwd_3000.viv:F19.cdl+F19.msh",
+  "normalized_sha256": "c928a7f0a7781b7bd09cb11970d99a30e43935031c0b9c70ee574621adcddb82",
+  "vertices": 1332,
+  "triangles": 650,
+  "batches": 24,
+  "bounds": [
+    -122.0,
+    -18.78721,
+    -129.6162,
+    122.0,
+    18.78721,
+    129.6162
+  ],
+  "scene_bytes": 57100,
+  "texture_bytes": 671744,
+  "materials": [
+    {
+      "key": "l3rl_3401/X0_53",
+      "source": "textures/X0_53.png",
+      "texture": "scene_tex/6221ab025b5c3e15b69118e0c1176183dc22d8025663feaa68ef2484565e4f9e.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "ad07dad87880945c272588accc82ee11d8e6f8b4803795405baacd98acabb124"
+    },
+    {
+      "key": "l3rl_3401/Z0_14",
+      "source": "textures/Z0_14.png",
+      "texture": "scene_tex/afc9ab0f8fcac30b4ea98d7ac8c3586d51facb326ae930c70f7e6fa65a28dfea.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "69c18890d347e259dbde43721de08b508d3d73e88ad711e38478a17ef8e6f355"
+    },
+    {
+      "key": "l3rl_3401/X0_25",
+      "source": "textures/X0_25.png",
+      "texture": "scene_tex/397614c8a45808d6b5d9e9de99b430ffba2f2a8f748e3c6301acb94a7eb8674f.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 2,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "210cf588c291ea95dff817ebbefcc4bbbb9f1084c80fbf435bde78d4cb8ba5f1"
+    },
+    {
+      "key": "l3rl_3401/F0_37",
+      "source": "textures/F0_37.png",
+      "texture": "scene_tex/fc53b071ac7c2f16afdf91c19e1c60a6804591d0ef3b28717f97921ba122b63b.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "58bb4691cabd315dbae441b964f47d51ea96b47a4ff4acaff3fd59e1386cd3f2"
+    },
+    {
+      "key": "l3rl_3401/F19_2",
+      "source": "textures/F19_2.png",
+      "texture": "scene_tex/c0384d4c383751ef3673ae1c19bf7a2752b38807e5773d74d579eb8562140a0a.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "68be39bf3c73ef682f0d3ef4d0cc66018364288ffc2f858a4c0934a60bc9ab0e"
+    },
+    {
+      "key": "l3rl_3401/X0_36",
+      "source": "textures/X0_36.png",
+      "texture": "scene_tex/00746a6dfebeb753dc1864c18645bc7eb5253a76026437834c0461233ed7f9a1.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "51a0b7ab08697a2e16c4de26e58c1bc2e1d11f1db22c2763ef35783f48276327"
+    },
+    {
+      "key": "l3rl_3401/F0_5",
+      "source": "textures/F0_5.png",
+      "texture": "scene_tex/c74ae4afa48bfa4ff876aaa0d7ecb11407fcaf410fb2fb7928fecce863b841a6.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "a1683c394cfef8ca03adf9ed38b3fb54a5bb34c902e49216ca2e55fd41070b40"
+    },
+    {
+      "key": "l3rl_3401/F0_22",
+      "source": "textures/F0_22.png",
+      "texture": "scene_tex/8dceb5e4b1a807d592aa3161ee7afd4acf725248294cc6a4fdb505da13d7c8cf.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "73f362057892496493029d2c5bf91e238060cf8136325e56a6af50a6b376546d"
+    },
+    {
+      "key": "l3rl_3401/X0_0",
+      "source": "textures/X0_0.png",
+      "texture": "scene_tex/548e7ba6cefd6fdc4d778365a00bc7f6dabce97082e77c1d86ab47ea27048a29.rgba",
+      "width": 64,
+      "height": 128,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "dd02a671891c11f95ff3e825e6d96abd658fa31864cd15964fd55eb8587e31a1"
+    },
+    {
+      "key": "l3rl_3401/Z0_9",
+      "source": "textures/Z0_9.png",
+      "texture": "scene_tex/6cf9e766c3b5dc39676ce2471e92045dc53fdea18123f35803c815bfbfefe390.rgba",
+      "width": 64,
+      "height": 128,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "e7abf22504ec00fa7a400476931335c9372efda4a20f4f6f1c34a00d6eea4b93"
+    },
+    {
+      "key": "l3rl_3401/F19_0",
+      "source": "textures/F19_0.png",
+      "texture": "scene_tex/a2a4dfa89ebe180e0a84ade73c9165a999a62cf9f6f3f0b8bb652ede18bc5353.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "261cbdb5d5492c38b7c2bf9bbf932f0f8346309086ca9d3358a6206d9d90092e"
+    },
+    {
+      "key": "l3rl_3401/F19_1",
+      "source": "textures/F19_1.png",
+      "texture": "scene_tex/df7ecc3c9241f65b687f2a062a11ba716b785476c907a28896a4f3924779b24b.rgba",
+      "width": 64,
+      "height": 128,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "e04fcd2c8ed2e4aa235cfefcf992ac48e9b8d2127eb2ccdc0f3b71a2874d14e8"
+    },
+    {
+      "key": "l3rl_3401/F0_6",
+      "source": "textures/F0_6.png",
+      "texture": "scene_tex/3702980e4c0cd920a396ff68b235ba4a769b1cb16ef5ec3f5b8150a868ce56f0.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "a2197962af13c88204f005a2e7a44a7b777cbb10aea7d9dd6732e263e2f872af"
+    },
+    {
+      "key": "l3rl_3401/X0_35",
+      "source": "textures/X0_35.png",
+      "texture": "scene_tex/8e737420a6a5c67fa95f61ab0c9618bfb1eb0c416714210dcc43fa94581ebb41.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "b4cd17e567464f67070a07d5a40b02b632abec268e3b85b731e27b1ec03eb6da"
+    },
+    {
+      "key": "l3rl_3401/F0_2",
+      "source": "textures/F0_2.png",
+      "texture": "scene_tex/a22b5054d7688f15932403f2c350e9ff328862162ccf8f6a6474730b1beaa392.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "49368c4e2ec8555836866e7cbe59c017ed11f79e87089b8a0384eaa421f703fb"
+    },
+    {
+      "key": "l3rl_3401/F0_4",
+      "source": "textures/F0_4.png",
+      "texture": "scene_tex/d9333ee31e6e4f48f5e9c7764e5729ab0ad382f2ed87f18b55ed3003629679ad.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "b78c92d455574770ae1d100a524a4f06bfee6458311408e3eed5bba8150fb95a"
+    },
+    {
+      "key": "l3rl_3401/F0_8",
+      "source": "textures/F0_8.png",
+      "texture": "scene_tex/39a5120c7fcf610f3a919fe99f76b473de95df86984aa441ab132d67ea11e71c.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "fd7b00703a12ef3f2b5aea6203db7b4120c63216e77b989a6a5de1e871ceefec"
+    },
+    {
+      "key": "l3rl_3401/F0_9",
+      "source": "textures/F0_9.png",
+      "texture": "scene_tex/cc3f54b9428c3a8a95d374079f5f012d1b6ae7a41c513e5ff9fbc1123f50fc39.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "10551eea53137098e399ee7e55ddec16d0cbd000ac3db93ed5cb63a8fb20307b"
+    },
+    {
+      "key": "l3rl_3401/Z0_10",
+      "source": "textures/Z0_10.png",
+      "texture": "scene_tex/1c8ce075ef175d878ea291d6b525889d5ff4b2621ce190084ec0c23ac8bbf6dd.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "c073df1e57fab1ee4f87bd4ce7e26ecbad6c51a123e52022f54d2200d62d7db0"
+    },
+    {
+      "key": "l3rl_3401/Z0_11",
+      "source": "textures/Z0_11.png",
+      "texture": "scene_tex/f7ba63252e4dc7841ab30d130a3d8f55c9448d1aca246edf9d7ef8bb5e4a45cf.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "9edc140388fd4bd92eba93c280a4e88f732c5711367931f11cc04496522b393b"
+    },
+    {
+      "key": "l3rl_3401/X0_13",
+      "source": "textures/X0_13.png",
+      "texture": "scene_tex/b730d958fdeccae0f37b5a9adea8827cd66dffc33d0fae0904bc59f19496ae36.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "a3acdf23507c3253892c752128f3744670e28e2c88c6a7a29b56e678cac5385e"
+    },
+    {
+      "key": "l3rl_3401/Z0_7",
+      "source": "textures/Z0_7.png",
+      "texture": "scene_tex/16fdd97649b5a7889634a35e112e828fb005c3321ca1a30a206edf1523dde341.rgba",
+      "width": 64,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "fc42190e800829bed599c181c60754790cbb4b1b6633d318fb9ff175068dd7f0"
+    },
+    {
+      "key": "l3rl_3401/X0_73",
+      "source": "textures/X0_73.png",
+      "texture": "scene_tex/02c5749a28ffca82ab9a88a0d4a1cd05861eb3c94f3fc9605a8879514b4a64cb.rgba",
+      "width": 128,
+      "height": 64,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "a2195d33b9bf564d35467347d8d42bab83f5272d391ce146cef8591a1b45fd8e"
+    },
+    {
+      "key": "l3rl_3401/F0_0",
+      "source": "textures/F0_0.png",
+      "texture": "scene_tex/a7ad2f2c349381a88dac1d7845ba6e28cf9623757ed6d9a3530785ef137f8bfa.rgba",
+      "width": 256,
+      "height": 128,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "887c81bb450cf22aa0c02f6876d517a982edbb99af4df55391a7d420afb901d8"
+    }
+  ]
+}

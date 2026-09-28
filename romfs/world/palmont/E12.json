@@ -1,0 +1,31 @@
+{
+  "format": "N3S1",
+  "section": "opwd_3000/E12",
+  "source": "tracks/opwd_3000.viv:E12.cdl+E12.msh",
+  "normalized_sha256": "eb86fe881d8cc407bdda32eda08177fa16ea9f3481a1650c7b3507c4a94af559",
+  "vertices": 7,
+  "triangles": 3,
+  "batches": 1,
+  "bounds": [
+    -9.072266,
+    -5.296875,
+    -26.29297,
+    9.072266,
+    5.296875,
+    26.29297
+  ],
+  "scene_bytes": 734,
+  "texture_bytes": 32768,
+  "materials": [
+    {
+      "key": "l3rl_3401/X0_0",
+      "source": "textures/X0_0.png",
+      "texture": "scene_tex/548e7ba6cefd6fdc4d778365a00bc7f6dabce97082e77c1d86ab47ea27048a29.rgba",
+      "width": 64,
+      "height": 128,
+      "alpha_mode": 0,
+      "alpha_evidence": "PNG alpha; original EAGL blend state unknown",
+      "sha256": "dd02a671891c11f95ff3e825e6d96abd658fa31864cd15964fd55eb8587e31a1"
+    }
+  ]
+}

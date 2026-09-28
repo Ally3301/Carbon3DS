@@ -1,0 +1,163 @@
+{
+  "source": "/home/gabs/\u00c1rea de trabalho/NFS-Carbon-3DS-Port-Carbon-Wheel-Fix/NFS-Carbon-3DS-Port/assets/generated/psp/recovered",
+  "cars": [
+    {
+      "car": "CARRERA4S",
+      "textures": [
+        {
+          "format": "0x105D",
+          "aux": 32,
+          "width": 128,
+          "height": 64,
+          "padded_width": 0,
+          "padded_height": 0,
+          "flags0": "0x2000",
+          "flags1": "0x0000",
+          "swizzled": true,
+          "palette_entries": 256,
+          "name": "CARRERA4S_BRAKELIGHT",
+          "entry_id": "0000",
+          "sheet": "CARRERA4S/0000_CARRERA4S_BRAKELIGHT.png",
+          "palette_alpha_scores": {
+            "byte_0": 0.0121,
+            "byte_1": 0.1551,
+            "byte_2": 0.1566,
+            "byte_3": 1.0
+          },
+          "palette_unique_values": {
+            "byte_0": 119,
+            "byte_1": 129,
+            "byte_2": 122,
+            "byte_3": 1
+          },
+          "index_usage": 256
+        },
+        {
+          "format": "0x105C",
+          "aux": 32,
+          "width": 128,
+          "height": 128,
+          "padded_width": 0,
+          "padded_height": 0,
+          "flags0": "0x2000",
+          "flags1": "0x0000",
+          "swizzled": true,
+          "palette_entries": 16,
+          "name": "CARRERA4S_DETAILS",
+          "entry_id": "0001",
+          "sheet": "CARRERA4S/0001_CARRERA4S_DETAILS.png",
+          "palette_alpha_scores": {
+            "byte_0": 0.0875,
+            "byte_1": 0.3812,
+            "byte_2": 0.175,
+            "byte_3": 0.275
+          },
+          "palette_unique_values": {
+            "byte_0": 14,
+            "byte_1": 14,
+            "byte_2": 11,
+            "byte_3": 13
+          },
+          "index_usage": 16
+        },
+        {
+          "format": "0x105C",
+          "aux": 8,
+          "width": 64,
+          "height": 64,
+          "padded_width": 0,
+          "padded_height": 0,
+          "flags0": "0x2000",
+          "flags1": "0x0000",
+          "swizzled": true,
+          "palette_entries": 16,
+          "name": "CARRERA4S_HEADLIGHT",
+          "entry_id": "0002",
+          "sheet": "CARRERA4S/0002_CARRERA4S_HEADLIGHT.png",
+          "palette_alpha_scores": {
+            "byte_0": 0.15,
+            "byte_1": 0.4562,
+            "byte_2": 0.15,
+            "byte_3": 0.5875
+          },
+          "palette_unique_values": {
+            "byte_0": 14,
+            "byte_1": 14,
+            "byte_2": 14,
+            "byte_3": 13
+          },
+          "index_usage": 16
+        },
+        {
+          "format": "0x105D",
+          "aux": 8,
+          "width": 64,
+          "height": 32,
+          "padded_width": 0,
+          "padded_height": 0,
+          "flags0": "0x2000",
+          "flags1": "0x0000",
+          "swizzled": true,
+          "palette_entries": 256,
+          "name": "CARRERA4S_HEADLIGHT_Line",
+          "entry_id": "0003",
+          "sheet": "CARRERA4S/0003_CARRERA4S_HEADLIGHT_Line.png",
+          "palette_alpha_scores": {
+            "byte_0": 0.5633,
+            "byte_1": 0.5633,
+            "byte_2": 0.5633,
+            "byte_3": 0.5965
+          },
+          "palette_unique_values": {
+            "byte_0": 17,
+            "byte_1": 16,
+            "byte_2": 16,
+            "byte_3": 35
+          },
+          "index_usage": 48
+        },
+        {
+          "format": "0x105C",
+          "aux": 32,
+          "width": 128,
+          "height": 128,
+          "padded_width": 0,
+          "padded_height": 0,
+          "flags0": "0x2000",
+          "flags1": "0x0000",
+          "swizzled": true,
+          "palette_entries": 16,
+          "name": "CARRERA4S_BADGING",
+          "entry_id": "0004",
+          "sheet": "CARRERA4S/0004_CARRERA4S_BADGING.png",
+          "palette_alpha_scores": {
+            "byte_0": 0.1312,
+            "byte_1": 0.2562,
+            "byte_2": 0.2188,
+            "byte_3": 0.2562
+          },
+          "palette_unique_values": {
+            "byte_0": 13,
+            "byte_1": 13,
+            "byte_2": 11,
+            "byte_3": 13
+          },
+          "index_usage": 16
+        }
+      ]
+    }
+  ],
+  "decoder_candidates": [
+    "RGBA (A=byte 3)",
+    "BGRA (A=byte 3)",
+    "GBRA (A=byte 3)",
+    "GRBA (A=byte 3)",
+    "BRGA (A=byte 3)",
+    "RBGA (A=byte 3)"
+  ],
+  "notes": [
+    "Each sheet uses the exact same palette bytes. CLUT4 sheets additionally show the alternate low/high-nibble index order; anomalous aux=32 badges also test inverted coverage a targeted transparent palette index 0, and binary index coverage (0 transparent, nonzero opaque).",
+    "The alpha candidate score ranks palette bytes that behave like binary/coverage alpha; it does not infer RGB order by itself.",
+    "Do not use this report to add per-car hue fixes. Apply the selected order in the SHPM decoder after it is corroborated by PSP reference captures."
+  ]
+}
