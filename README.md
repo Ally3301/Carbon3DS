@@ -1,14 +1,10 @@
 # NFS Carbon Zeebo → Nintendo 3DS
 
-Native reimplementation/reconstruction project for the Zeebo version of
+Native reimplementation/reconstruction project for the Hybrid Zeebo/Psp version of
 **Need for Speed Carbon**, targeting Nintendo 3DS homebrew.
-
-This repository has been reorganized as a clean handoff for continued work with
-ChatGPT Codex / GPT-6 Astra Codex.
 
 ## Start here
 
-**Read [`CODEX_START_HERE.md`](CODEX_START_HERE.md) before changing code.**
 
 The project is split into four layers:
 
@@ -38,7 +34,7 @@ Validated/recovered:
 - WAV/OGG audio assets.
 - thousands of UI/HUD PNG assets.
 - corrected SHPM palette decoding.
-- decompiled `jogo.c` indexed for targeted reference.
+- decompiled `ZeeboSource.c` indexed for targeted reference.
 
 Current 3DS runtime:
 
@@ -49,12 +45,13 @@ Current 3DS runtime:
 - dynamic paint material scaffolding;
 - NDSP audio;
 - camera/input/test physics;
-- **still uses a procedural test road instead of the recovered city**.
+- Palmond City Stream render;
 
-The runtime is intentionally behind the asset reverse engineering. The next
-developer should consume the normalized assets instead of redoing the extraction.
+The runtime is intentionally behind the asset reverse engineering. 
 
 ## Build
+
+*This version of the repository doesn't have the normalized assets, Psp and Zeebo Rom temporary needed*
 
 With devkitPro/devkitARM and the 3DS packages installed:
 
@@ -74,7 +71,7 @@ The old **N3M** vehicle pipeline is obsolete. Do not restore it.
 
 - Preservation/interchange: OBJ + PNG + JSON in `assets/normalized/`.
 - Current vehicle runtime intermediate: N3P1 in `assets/generated/3ds/`.
-- World runtime format is deliberately not finalized yet.
+- World runtime is still in beta.
 
 ## Repository map
 
