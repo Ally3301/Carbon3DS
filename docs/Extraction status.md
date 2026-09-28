@@ -17,9 +17,9 @@ I managed to grab a few manually, but there is no automated way to migrate the e
 
 ## Here Is the PSP Extration notes
 
-[`/PSP_REFLECTION_CODE_TRACE.md`](docs/PSP_REFLECTION_CODE_TRACE.md) - Understanding How Psp Reflection Trace works
+[`docs/PSP_REFLECTION_CODE_TRACE.md`](/PSP_REFLECTION_CODE_TRACE.md) - Understanding How Psp Reflection Trace works
 
-[`/PSP_EXECUTABLE_ANALYSIS.md`](docs/PSP_EXECUTABLE_ANALYSIS.md) - Psp Executable Analysis (only for see the differences between Zeebo and Psp carbon)
+[`docs/PSP_EXECUTABLE_ANALYSIS.md`](/PSP_EXECUTABLE_ANALYSIS.md) - Psp Executable Analysis (only for see the differences between Zeebo and Psp carbon)
 
 **These notes are in portuguese brazil, I don't have time to translate**
 
