@@ -63,19 +63,9 @@ Stages the current generated assets into `romfs/`, converting PNG to T3X.
 
 ### `analyze_source.py`
 
-Indexes `jogo.c` for targeted investigation.
+Indexes `zeebo.c` for targeted investigation.
 
 ### `test_host.py`
 
 Host regression tests for asset/runtime loaders.
 
-## Adding a decoder
-
-A new decoder should:
-
-1. validate signatures/lengths;
-2. reject unsafe offsets;
-3. preserve unknown fields;
-4. emit source identity + hashes where practical;
-5. have a fixture/regression test;
-6. produce platform-neutral normalized output before a 3DS-specific pack.
